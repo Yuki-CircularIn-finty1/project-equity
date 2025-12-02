@@ -1,0 +1,57 @@
+# Chapter N - [Title]
+
+## Setting
+- **Time**: [Time of day/period]
+- **Location**: [Primary location]
+- **Mood**: [Overall mood/tone]
+
+## Character Focus
+- **Primary**: [Main character(s)]
+- **Supporting**: [Supporting characters]
+
+## Plot Summary
+[Brief description of what happens in this chapter]
+
+## Key Scenes
+1. [Opening scene - description]
+2. [Development - description]
+3. [Climax/Key moment - description]
+4. [Transition/Closing - description]
+
+## Required Assets Checklist
+
+### Backgrounds
+- [ ] `bg_[name].png` - [Description]
+- [ ] `bg_[name].png` - [Description]
+
+### Character Sprites
+- [ ] `[character]_[expression].png` - [Description]
+- [ ] `[character]_[expression].png` - [Description]
+
+### Audio - BGM
+- [ ] `[track_name].mp3` - [Mood/when used]
+  - Source: 
+  - License:
+  - Attribution:
+
+### Audio - SE
+- [ ] `se_[sound].mp3` - [When used]
+  - Source:
+  - License:
+  - Attribution:
+
+---
+
+## Conversion Notes
+
+When converting to JSON:
+- Approximately [X] scenes estimated
+- Key transition points: [List scene transitions]
+- Special effects needed: [List any advanced character effects]
+
+---
+
+## References
+- Character profiles: See `source-materials/chapters/characters/`
+- Previous chapters: `chapter1.txt` through `chapter4.txt`
+- Authoring guide: `docs/CHAPTER_AUTHORING_GUIDE.md`

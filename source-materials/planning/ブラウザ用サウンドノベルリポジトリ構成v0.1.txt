@@ -1,0 +1,114 @@
+sound-novel-game/
+├─ README.md                      # プロジェクト概要 / 開発フロー / AI利用方針
+├─ package.json
+├─ pnpm-lock.yaml                 # or yarn.lock / package-lock.json
+├─ tsconfig.json
+├─ vite.config.ts                 # Vite想定（他でも可）
+├─ .editorconfig                  # フォーマット統一
+├─ .eslintrc.cjs                  # Lint設定
+├─ .prettierrc.cjs                # フォーマット設定
+│
+├─ .github/
+│  └─ workflows/
+│     └─ ci.yml                   # Lint / Typecheck / Schema Validate / Test / Build / Deploy
+│
+├─ public/
+│  ├─ index.html                  # ルートHTML
+│  ├─ favicon.ico
+│  └─ og-image.png                # SNS用（余裕があれば）
+│
+├─ src/
+│  ├─ main.tsx                    # エントリーポイント
+│  ├─ App.tsx                     # 全体ラッパ（タイトル/設定/ゲーム画面）
+│  │
+│  ├─ engine/                     # ノベルエンジン本体（ロジック層）
+│  │  ├─ types.ts                 # シナリオ/フラグなどの型定義
+│  │  ├─ storyEngine.ts           # 現在シーンID・進行・遷移ロジック
+│  │  ├─ navigation.ts            # nextSceneId 解決・分岐処理
+│  │  ├─ flags.ts                 # フラグ/変数管理（エンディング3種など）
+│  │  ├─ saveLoad.ts              # localStorageベースのセーブ/ロード
+│  │  ├─ validator.ts             # シナリオJSONのランタイム検証（Zod等）
+│  │  └─ errors.ts                # エラー型 & フォールバックポリシー
+│  │
+│  ├─ data/                       # データ駆動シナリオ＆設定
+│  │  ├─ chapters/
+│  │  │  ├─ chapter1.json         # 第1章（本番用）
+│  │  │  ├─ chapter1_map.md       # 第1章の分岐マップ（人間用メモ）
+│  │  │  └─ _draft_ch1_ai.json    # AI生成ドラフト（直接は読まない）
+│  │  ├─ schema/
+│  │  │  └─ chapter.schema.json   # シナリオJSONスキーマ（validator用）
+│  │  ├─ characters.json          # キャラ名/顔グラ/声などのメタ情報
+│  │  └─ config.json              # 文字速度/スキップ/オート等の設定
+│  │
+│  ├─ components/                 # UIコンポーネント
+│  │  ├─ TextBox.tsx              # 名前/本文/ログ送り UI
+│  │  ├─ ChoiceList.tsx           # 選択肢ボタン一覧
+│  │  ├─ CharacterPortrait.tsx    # 立ち絵切り替え
+│  │  ├─ BackgroundLayer.tsx      # 背景画像切り替え
+│  │  ├─ SystemMessage.tsx        # エラー/警告メッセージ表示
+│  │  ├─ SoundToggle.tsx          # ミュート/音量UI
+│  │  └─ layout/
+│  │     └─ GameLayout.tsx        # PC向けレイアウト（将来レスポンシブ対応）
+│  │
+│  ├─ hooks/
+│  │  ├─ useScenario.ts           # 現在シーン/選択肢/進行をまとめて管理
+│  │  ├─ useAudioController.ts    # BGM/SE制御
+│  │  └─ useResponsiveLayout.ts   # 画面幅によるレイアウト切替（モバイル拡張用）
+│  │
+│  ├─ assets/
+│  │  ├─ images/
+│  │  │  ├─ backgrounds/
+│  │  │  │  ├─ bg_room_day.png
+│  │  │  │  └─ bg_room_night.png
+│  │  │  ├─ characters/
+│  │  │  │  ├─ mc/
+│  │  │  │  │  ├─ mc_neutral.png
+│  │  │  │  │  └─ mc_sad.png
+│  │  │  │  └─ npc/
+│  │  │  │     └─ npc1_neutral.png
+│  │  │  ├─ ui/
+│  │  │  │  ├─ textbox_frame.png
+│  │  │  │  └─ choice_button.png
+│  │  │  └─ generated/            # Gemini等が生成した“未承認”画像
+│  │  ├─ audio/
+│  │  │  ├─ bgm/
+│  │  │  │  └─ main_theme.ogg
+│  │  │  ├─ se/
+│  │  │  │  ├─ click.ogg
+│  │  │  │  └─ decision.ogg
+│  │  │  └─ voice/                # 必要なら。最初は空でOK
+│  │  └─ fonts/
+│  │     └─ README.md             # 使用フォントとライセンス
+│  │
+│  ├─ styles/
+│  │  ├─ global.css               # ベーススタイル
+│  │  ├─ theme.css                # カラーテーマ
+│  │  └─ responsive.css           # 将来のモバイル対応用（早めに枠だけ用意）
+│  │
+│  ├─ utils/
+│  │  ├─ storage.ts               # localStorage ラッパー＆エラー処理
+│  │  ├─ logger.ts                # dev/prod切替可能なログ出力
+│  │  └─ random.ts                # 演出用の乱数など（必要なら）
+│  │
+│  └─ debug/
+│     ├─ DevTools.tsx             # シーンジャンプ・フラグ確認・強制エンド到達など
+│     └─ ScenarioReport.ts        # シナリオ全体の到達性レポート生成用
+│
+├─ scripts/
+│  ├─ validate-scenarios.ts       # 全chapter JSONのスキーマ＆リンク整合性チェック
+│  ├─ list-unused-scenes.ts       # 未使用sceneId検出（AI生成ゴミ掃除用）
+│  └─ generate-scaffold.ts        # 新章/chapter JSONの雛形を生成
+│
+├─ tests/
+│  ├─ engine/
+│  │  ├─ storyEngine.test.ts      # 分岐・nextSceneIdのテスト
+│  │  └─ flags.test.ts            # フラグ→エンディング3種の条件テスト
+│  └─ data/
+│     └─ chaptersIntegrity.test.ts# JSONの一貫性チェック（3エンド/選択肢2つなど）
+│
+└─ docs/
+   ├─ scenario_spec.md            # シナリオJSONの仕様（AIに渡すプロンプト用にも使う）
+   ├─ flags_design.md             # フラグ設計＆3エンディング仕様
+   ├─ assets_policy.md            # AI生成画像/音の扱いとライセンス方針
+   ├─ dev_memo.md                 # 開発メモ/ToDo/リリースノート
+   └─ ai_workflow.md              # Gemini/Antigravity利用時の手順とガードレール

@@ -1,0 +1,384 @@
+{
+  "scenes": [
+    {
+      "id": "scene_start",
+      "text": "第3章 覚醒",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_1",
+      "bgm": "omoideguiter"
+    },
+    {
+      "id": "scene_cooking_1",
+      "text": "チョコレートが溶ける温度までお湯を温める。沸騰したお湯を使ってはいけないとどこかのウェブサイトで読んだ。確か50度強の温度だ。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_2",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_2",
+      "text": "湯煎でチョコレートが少しずつ溶けてくる。遥の小玉はあれから出ていない。あれは白昼夢だったのではないかと思いを巡らす。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_3",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_3",
+      "text": "チョコレートがどろどろ溶けていく。遥の心は既に何かをされてしまったのか被害妄想が膨らんでいく。チョコレートの焦げた香りが漂う。どうやら熱を加えすぎたようだ。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_4",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_4",
+      "text": "ハート形の型に流し込んで形状を整えていく。明日は女子が男子に思いを伝えるであろうと、製菓会社が決めた日である。遥はこれまで姉が作るのを見てきただけで、バレンタインを意識するのは今回が初めてだ。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_5",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_5",
+      "text": "智也にチョコレートをあげたい、というわけではない。智也に会う口実が欲しいのだ。智也はセンター試験を終え、2次試験に向けて勉強しているはずだ。そんな彼を癒してあげたい。遥の母性がそう訴える。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_6",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_6",
+      "text": "智也と会う約束をしているわけでもない。智也が明日学校に来るかどうかさえ分からない。LINEがある。ただそれで聞けばいいだけなのに遥は聞くことができない。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_7",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_7",
+      "text": "固まってきたチョコレートを眺めながらも、遥の心は固まらない。運を天に任せる。もしも赤い糸があったならば、智也と会うことができるのではないか。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_8",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_8",
+      "text": "遥はあり得る現実から目をそらし、他力本願な気持ちになる。突然、訪れたら彼はどんな反応をするか、そんな重い女であることを遥は自覚していなかった。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_cooking_9",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_cooking_9",
+      "text": "チョコレートを冷蔵庫で１時間冷やした後、遥は智也の家を目指した。ラッピングはデパートで買った小花柄のものにピンクのリボンをつけている。遥の好きなドラマで演出されてたものだ。黒のトートバッグにそれを入れると、遥は智也の家に向かいだした。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_bridge_1",
+      "characters": {
+        "center": "haruka_cooking"
+      }
+    },
+    {
+      "id": "scene_bridge_1",
+      "text": "歩道橋を登り、通路を渡っていると突風が吹いた。トートバッグが風に煽られ、小花柄の包みが道路に落ちた。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_bridge_2",
+      "bgm": "牙",
+      "characters": {
+        "center": "haruka_neutral"
+      }
+    },
+    {
+      "id": "scene_bridge_2",
+      "text": "と、一台のトラックが通過した、小包の上を。ぐしゃり。遥の顔から血の気がひいた。遥と智也の唯一のつながり、それが壊れた。あっという間に。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_1",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_1",
+      "text": "その瞬間、巨大な塊がトラックの後ろに現れた。後続車が寸でのところで迂回する。対向車が衝突した。あたりが騒然とする。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_2",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_2",
+      "text": "遥はその場に座り込んだ。歩道橋の上から見下ろすと、事故の様子が良くわかる。右に迂回した軽自動車が対向車のトラックに潰されている。運転席がちょうど凹んでいる。運転手は無事だろうか。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_3",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_3",
+      "text": "遥はいまおかれている状況を直視できない。遥の無意識が訴える。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_voice_1",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_voice_1",
+      "text": "「ワタシノセイナノカ」",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_voice_2",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_voice_2",
+      "text": "「ワタシノノウリョクノセイナノカ」",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_flee_1",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_flee_1",
+      "text": "逃げ出したい。ここから逃げ出したい。本来なら手元のスマートフォンに110や119を入れなければいけないのに思考が及ばない。次第に人が集まっていく。遠くからサイレンが聞こえる。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_voice_3",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_voice_3",
+      "text": "「ココカラタチサラナケレバ」",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_accident_flee_2",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_accident_flee_2",
+      "text": "本能が訴える。震える足を抱えながら、一歩一歩道を戻る。もはや智也の家に行く気はさらさらおきなかった。今の現実に耐えることができない。",
+      "backgroundId": "bg_pedestrian_bridge",
+      "nextSceneId": "scene_home_panic",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_home_panic",
+      "text": "気づいたら遥は自室にいた。誰かに伝えたい。でも、誰に。遥の引き出しに収まってるくしゃくしゃの紙。Kの電話番号が書かれた紙。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_call_k_1",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_1",
+      "text": "遥はそれを意識せずにはいられなかった。手に取ると、遥は書かれた番号をスマートフォンに入力していた。ワンコールで相手が出る。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_call_k_2",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_2",
+      "text": "「こんにちはHさん。Kです。その後いかがですか？」",
+      "backgroundId": "bg_haruka_room",
+      "characterId": "K",
+      "nextSceneId": "scene_call_k_3",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_3",
+      "text": "「あの……こんにちは。その……能力がおかしいんです。大きな塊が……突然……」",
+      "backgroundId": "bg_haruka_room",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_call_k_4",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_4",
+      "text": "「能力が暴走したんですね。いまどちらですか？」",
+      "backgroundId": "bg_haruka_room",
+      "characterId": "K",
+      "nextSceneId": "scene_call_k_5",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_5",
+      "text": "「自宅です。」",
+      "backgroundId": "bg_haruka_room",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_call_k_6",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_call_k_6",
+      "text": "「いまからこちらに来れますか？」",
+      "backgroundId": "bg_haruka_room",
+      "characterId": "K",
+      "nextSceneId": "scene_club_arrival_1",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_club_arrival_1",
+      "text": "遥は頷くより他なかった。前回の朧げな記憶を頼りに隣駅まで行き、例の古びた建物にたどり着く。もうテナント募集の広告は取り外されている。ドアをノックする。",
+      "backgroundId": "bg_club_room",
+      "nextSceneId": "scene_club_arrival_2",
+      "bgm": "ghost_doodle",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_club_arrival_2",
+      "text": "「失礼します。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_club_arrival_3",
+      "characters": {
+        "center": "haruka_despair"
+      }
+    },
+    {
+      "id": "scene_club_arrival_3",
+      "text": "ドアを開けると白髪のKのみが迎え入れてくれた。",
+      "backgroundId": "bg_club_room",
+      "nextSceneId": "scene_club_talk_1",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_club_talk_1",
+      "text": "「お待ちしていました。Hさん。ちょうどタイミングが良かったですね。我々も移動の時です。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_club_talk_2",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_club_talk_2",
+      "text": "聞くと、この団体は根無し草。定期的に本拠地を移動しているらしい。安全面を考えての行動か。そもそも何が危険なのかは分からないが……。",
+      "backgroundId": "bg_club_room",
+      "nextSceneId": "scene_club_talk_3",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_club_talk_3",
+      "text": "「いまからあなたに能力のコントロールの仕方をお伝えします。何らかの形で感情が高ぶるとき能力は発動します。つまり、ポイントは感情のコントロールなのです。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_club_talk_4",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_club_talk_4",
+      "text": "「例えるなら意図的に涙を流すような行為です。女優になったと思って、今まで一番嬉しかったこと、または辛かったことを思い出してください。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_awakening_1",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_1",
+      "text": "遥は瞬間的に先ほどの事故を思い出した。あの運転手は無事だったろうか。そう思うと、遥の目から自然に涙が零れた。",
+      "backgroundId": "bg_club_room",
+      "nextSceneId": "scene_awakening_2",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_2",
+      "text": "カツーン、カツーン。中くらいの玉が口から零れた。",
+      "backgroundId": "bg_club_room",
+      "se": "wine-glass-clink-36036",
+      "nextSceneId": "scene_awakening_3",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_3",
+      "text": "「ほう、君は才能があるね。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_awakening_4",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_4",
+      "text": "「大切なことは認識だ。その玉が自分の体の延長であると、頭ではなく身体で理解する必要がある。自転車に乗るようなものだ。学校の授業で習ったことがあるかい。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_awakening_5",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_5",
+      "text": "「習うより慣れろが大切だ。もっと感情を深く掘り起こすんだ。」",
+      "backgroundId": "bg_club_room",
+      "characterId": "K",
+      "nextSceneId": "scene_awakening_6",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_awakening_6",
+      "text": "また、ヒーリングミュージックが流れ出す。気持ちが安らいでいく。遥は遠い昔を思い出し始めてきた。",
+      "backgroundId": "bg_club_room",
+      "nextSceneId": "scene_end",
+      "bgm": "omoideguiter",
+      "characters": {
+        "center": "k_neutral"
+      }
+    },
+    {
+      "id": "scene_end",
+      "text": "第3章 覚醒 完",
+      "backgroundId": "",
+      "type": "ending"
+    }
+  ]
+}

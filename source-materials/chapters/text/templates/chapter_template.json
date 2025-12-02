@@ -1,0 +1,26 @@
+{
+  "scenes": [
+    {
+      "id": "chapterN_scene1",
+      "text": "[Opening narration or dialogue]",
+      "backgroundId": "bg_location",
+      "bgm": "bgm_track",
+      "characters": {
+        "center": "character_neutral"
+      },
+      "nextSceneId": "chapterN_scene2"
+    },
+    {
+      "id": "chapterN_scene2",
+      "text": "[Dialogue or narration continues...]",
+      "nextSceneId": "chapterN_scene3"
+    },
+    {
+      "id": "chapterN_scene3",
+      "text": "[Key moment or transition]",
+      "characters": null,
+      "bgm": null,
+      "nextSceneId": "chapterN_scene4"
+    }
+  ]
+}

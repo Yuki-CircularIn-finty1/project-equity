@@ -1,0 +1,171 @@
+{
+  "scenes": [
+    {
+      "id": "scene_start",
+      "text": "第1章 現象",
+      "backgroundId": "Welcome",
+      "nextSceneId": "scene_train_1",
+      "bgm": "ghost_doodle"
+    },
+    {
+      "id": "scene_train_1",
+      "text": "カツーンと明瞭な音が車内に響き渡った。佐藤遥は特段、それを不快なものとも思わなかったが、本能的に恐怖を覚えた。",
+      "backgroundId": "bg_train_interior",
+      "nextSceneId": "scene_train_2",
+      "se": "wine-glass-clink-36036"
+    },
+    {
+      "id": "scene_train_2",
+      "text": "カツーン、カツーン、音は響き渡る。それが自分の口から零れ落ちたものだと気づくには幾分の時間もかからなかった。",
+      "backgroundId": "bg_train_interior",
+      "nextSceneId": "scene_train_3",
+      "se": "wine-glass-clink-36036"
+    },
+    {
+      "id": "scene_train_3",
+      "text": "小さくて球状の物体（以下、「小玉」）。歪な形をしたそれが遥の口から零れ落ちていた。周囲の視線が身体に突き刺さる。",
+      "backgroundId": "bg_train_interior",
+      "nextSceneId": "scene_train_4"
+    },
+    {
+      "id": "scene_train_4",
+      "text": "次の停車駅の時間までがもどかしい。いよいよ電車が停車すると遥は一目散にトイレに駆け込んだ。吐いた。込み上げてくる液体が酸っぱい。しかし小玉はもう落ちてこなかった。",
+      "backgroundId": "bg_train_interior",
+      "nextSceneId": "scene_haruka_room_prep_1"
+    },
+    {
+      "id": "scene_haruka_room_prep_1",
+      "text": "遥は帰宅すると、制服を脱ぎ、通販サイトのセールで買った黒のワンピースに身を包んだ。上からネイビーのコートを着た。姉から借りたものだ。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_haruka_room_prep_2"
+    },
+    {
+      "id": "scene_haruka_room_prep_2",
+      "text": "椎名智也とのデートまで後1時間。化粧を丁寧に終えると鏡を入念に確認し、再び家を後にする。男性とのデートはこれが始めてではない。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_haruka_room_prep_3"
+    },
+    {
+      "id": "scene_haruka_room_prep_3",
+      "text": "しかし、椎名智也は武蔵高校のアイドルだった。そんな智也は遥の1つ上の先輩であり、受験生であった。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_haruka_room_prep_4"
+    },
+    {
+      "id": "scene_haruka_room_prep_4",
+      "text": "センター試験をまもなく控えた1月の上旬にデートをしてくれるのは彼の優しさなのか、怠慢なのか遥には分からない。告白したのも半年も前のことだ。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_haruka_room_prep_5"
+    },
+    {
+      "id": "scene_haruka_room_prep_5",
+      "text": "どこからか遥のLINEの連絡先を聞いた智也は今日のデートの誘いを昨日してきた。全身の毛も剃ってある。いつそういうことになってもおかしくないように準備はしてきた。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_tomoya_house_arrival"
+    },
+    {
+      "id": "scene_tomoya_house_arrival",
+      "text": "遥は指定された住所を元に智也の家を突きとめた。一瞬の逡巡の後、インターホンを押す。「どうぞ」。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_house_entry"
+    },
+    {
+      "id": "scene_tomoya_house_entry",
+      "text": "くぐもった声で短い返答があった。学校で聞きなじみのある爽やかで明るい声と同一人物であることを疑わしく思わせるものであったが、遥には分からない。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_house_entry_2"
+    },
+    {
+      "id": "scene_tomoya_house_entry_2",
+      "text": "舞い上がっているのである。学園のアイドル。ルックスがそれほど良い分けではない。ジャニーズ系でもEXILE系でもなくどこか中性的な印象を与える彼は剣道の全国大会で優勝するほどの腕前であり、文化祭実行委員会委員長である。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_house_entry_3"
+    },
+    {
+      "id": "scene_tomoya_house_entry_3",
+      "text": "彼が話をする空間はどこか華があり、輪の中心にはいつも彼がいた。そんな彼が遥に声を掛けてくれたのである。令和始まって最大のイベントである。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_house_entry_4"
+    },
+    {
+      "id": "scene_tomoya_house_entry_4",
+      "text": "遥は成績こそ悪くはなかったが、これといった特技もなく、趣味もネットサーフィン程度、つまり魅力とは何なのかということすら考えを巡らせることがなかった。そんな遥と智也の接点を遥はどう受け止めていいのかわからない。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_room_door"
+    },
+    {
+      "id": "scene_tomoya_room_door",
+      "text": "灰色の無機質な壁に黒の扉。その扉をあけると、２階から声がする。「こっちだよ」",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_room_stairs"
+    },
+    {
+      "id": "scene_tomoya_room_stairs",
+      "text": "遥は近づいていく。階段をみしりみしりと一段一段上がっていくと、彼の部屋から微かな香りが漂ってくる。これはラベンダーか。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_tomoya_room_inside"
+    },
+    {
+      "id": "scene_tomoya_room_inside",
+      "text": "「こっちへおいで」彼の囁きが遥の首筋をくすぐる。",
+      "backgroundId": "bg_tomoya_room",
+      "choices": [
+        {
+          "id": "choice_approach",
+          "text": "彼に近づく",
+          "nextSceneId": "scene_incident_start"
+        },
+        {
+          "id": "choice_hesitate",
+          "text": "立ち止まる",
+          "nextSceneId": "scene_incident_start"
+        }
+      ]
+    },
+    {
+      "id": "scene_incident_start",
+      "text": "そんなつもりじゃなかったのにとかまととぶる暇もなく、遥は智也の元に吸い込まれていく。その時だった。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_incident_clack"
+    },
+    {
+      "id": "scene_incident_clack",
+      "text": "カツーン。どこかで聞いた明瞭な音が響き渡る。と思ったのも束の間、カラカラカラン、大量の小玉が智也の膝の上に落ちる。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_incident_scream",
+      "se": "wine-glass-clink-36036",
+      "seRepeat": 8,
+      "seInterval": 150
+    },
+    {
+      "id": "scene_incident_scream",
+      "text": "声にならない悲鳴を上げた智也は腰を抜かしてその場にへたり込んだ。「ト、トイレどこですか？」",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_incident_leave"
+    },
+    {
+      "id": "scene_incident_leave",
+      "text": "遥は思わず詰問するかのように聞き出し、その場を後にした。嘔吐いた末、出てくるものはもう何もなかった。",
+      "backgroundId": "bg_tomoya_room",
+      "nextSceneId": "scene_haruka_room_wake"
+    },
+    {
+      "id": "scene_haruka_room_wake",
+      "text": "それからどういう経緯で帰宅したのかは覚えていない。気づいたときには自室にいた。冷や汗が脇を伝う。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_haruka_room_realization"
+    },
+    {
+      "id": "scene_haruka_room_realization",
+      "text": "自分の身体に何か異変がある、そう強く自覚した最初の瞬間だった。智也とのデートの日は闇に押しつぶされた。",
+      "backgroundId": "bg_haruka_room",
+      "nextSceneId": "scene_ending_1"
+    },
+    {
+      "id": "scene_ending_1",
+      "text": "第1章 現象 完",
+      "backgroundId": "",
+      "type": "ending"
+    }
+  ]
+}

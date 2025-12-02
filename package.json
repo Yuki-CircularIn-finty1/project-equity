@@ -1,0 +1,50 @@
+{
+  "name": "project-equity",
+  "version": "0.1.0",
+  "description": "A browser-based sound novel game engine with multi-chapter storytelling",
+  "author": "Project Equity Team",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuki-CircularIn-finty1/project-equity.git"
+  },
+  "keywords": [
+    "visual-novel",
+    "sound-novel",
+    "game-engine",
+    "react",
+    "typescript",
+    "interactive-fiction"
+  ],
+  "scripts": {
+    "dev": "npm run generate-assets && vite",
+    "build": "npm run generate-assets && tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "validate-assets": "node scripts/validate-assets.js",
+    "generate-assets": "tsx scripts/generate-asset-types.ts"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "rollup-plugin-visualizer": "^6.0.5",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}

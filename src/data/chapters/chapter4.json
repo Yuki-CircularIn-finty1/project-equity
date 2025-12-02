@@ -1,0 +1,209 @@
+{
+  "scenes": [
+    {
+      "id": "scene_chapter4_start",
+      "text": "第4章 回顧",
+      "backgroundId": "bg_park_day",
+      "nextSceneId": "scene_park_flashback_1",
+      "bgm": "omoideguiter"
+    },
+    {
+      "id": "scene_park_flashback_1",
+      "text": "たったったっ。少女が公園を走っている。ブランコも滑り台もない質素な公園である。",
+      "backgroundId": "bg_park_day",
+      "nextSceneId": "scene_park_flashback_2",
+      "se": "se_run",
+      "seRepeat": 3,
+      "seInterval": 300
+    },
+    {
+      "id": "scene_park_flashback_2",
+      "text": "少年達がその後を追いかける。少女は凧をあげていた。ふわりふわり。風に乗って気持ちよさそうに凧が泳ぐ。",
+      "backgroundId": "bg_park_day",
+      "nextSceneId": "scene_park_flashback_3",
+      "se": "the-sound-of-a-little-girl-running-down-the-street"
+    },
+    {
+      "id": "scene_park_flashback_3",
+      "text": "そんな光景を遠くから見ている別の少女。遥５才の時である。姉の光はいつも集団の中心であったが、遥はそこに混じることなく自分の時間を過ごしていた。",
+      "backgroundId": "bg_park_day",
+      "characters": {
+        "center": "haruka_child"
+      },
+      "nextSceneId": "scene_park_flashback_4"
+    },
+    {
+      "id": "scene_park_flashback_4",
+      "text": "姉の光は活動的で社交性があり、運動も得意で頭も良かった。なにより遥が嫉妬、まだそう呼ぶことを知らない年齢であったが、感じたのは光の類まれなる容姿であった。",
+      "backgroundId": "bg_park_day",
+      "nextSceneId": "scene_park_flashback_5"
+    },
+    {
+      "id": "scene_park_flashback_5",
+      "text": "遥はその後、姉の影を追いながら幼少期を過ごす。それはどこか抑圧された屈折した精神を育んだ。",
+      "backgroundId": "bg_park_day",
+      "nextSceneId": "scene_training_1"
+    },
+    {
+      "id": "scene_training_1",
+      "text": "遥がふと気づくと中くらいの玉が１つ増えていた。",
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_training_2",
+      "se": "se_ball_appear"
+    },
+    {
+      "id": "scene_training_2",
+      "text": "「感情の起伏が能力を発動させるキーだ。ここでしばらく訓練するといい。彼が手伝ってくれるだろう。」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "K",
+      "nextSceneId": "scene_training_3"
+    },
+    {
+      "id": "scene_training_3",
+      "text": "てんがペコリと挨拶する。今日はフードを外している。ピンク色のモヒカンヘア。柔らかい物腰の彼だが、過激な髪型だ。",
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "ten_mohawk"
+      },
+      "nextSceneId": "scene_training_4"
+    },
+    {
+      "id": "scene_training_4",
+      "text": "「オイラの能力でHさんの心を子供時代に戻した。過去の回顧はどうだったかい。楽しめたかい。」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "TEN",
+      "nextSceneId": "scene_training_5"
+    },
+    {
+      "id": "scene_training_5",
+      "text": "遥の目からは一筋の涙が流れた。なぜ泣いているかは分からない。「私に干渉しないでって言ったでしょ」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_training_6"
+    },
+    {
+      "id": "scene_training_6",
+      "text": "「君の心には閉ざされたドアがいくつもある。それを1つずつ開けていく。そのうえで自分自身を見つめることが能力の開花につながる。」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "TEN",
+      "nextSceneId": "scene_owl_flashback_1"
+    },
+    {
+      "id": "scene_owl_flashback_1",
+      "text": "閉ざされた扉。それは遥のこれまでの人生の足跡、知らないふりをしてきた過去との対面を意味する。",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_owl_flashback_2",
+      "bgm": "ghost_doodle"
+    },
+    {
+      "id": "scene_owl_flashback_2",
+      "text": "遥の心の最深部。最も重い扉の前に遥とてんが佇む。扉の前に１つの羽が落ちている。「この扉は……ダメ、開けられない」",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_owl_flashback_3"
+    },
+    {
+      "id": "scene_owl_flashback_3",
+      "text": "「Hさん、君の足に嵌められている重い枷をほどくにはこの扉を開ける必要がある。何があったかオイラに聞かせてくれる？」",
+      "backgroundId": "bg_garbage_dump",
+      "characterId": "TEN",
+      "nextSceneId": "scene_owl_flashback_4"
+    },
+    {
+      "id": "scene_owl_flashback_4",
+      "text": "ぱさぱさぱさ。漆黒の闇に羽ばたく音が響き渡る。その猛禽類は闇夜に溶け込み、その光る目で遠くを見据える。",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_owl_flashback_5",
+      "se": "heavy-wings-flapping-364607"
+    },
+    {
+      "id": "scene_owl_flashback_5",
+      "text": "遥は目が覚めた。目から涙が零れ落ちる。７年前の喪失を思い出したからだ。その白色の死体は血に染まり、住宅のゴミ収集場に生ごみと共に放置されていた。",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_owl_flashback_6"
+    },
+    {
+      "id": "scene_owl_flashback_6",
+      "text": "幸喜と名付けられたその白い梟は10才の誕生日の両親からの贈り物であった。まだ離婚する前のことであった。",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_owl_flashback_7"
+    },
+    {
+      "id": "scene_owl_flashback_7",
+      "text": "しかし、ある日ケージを開けたとき、たまたま窓が開いていた。外のお散歩の経験のない幸喜はそのまま帰ってくることはなかった。",
+      "backgroundId": "bg_garbage_dump",
+      "nextSceneId": "scene_party_1"
+    },
+    {
+      "id": "scene_party_1",
+      "text": "黒い霞が球状になり、４つ目の玉として現れる。どの玉よりも大きく。黒光りしたそれは遥の顔をほのかに映し出す。",
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_party_2",
+      "se": "se_ball_appear",
+      "bgm": "omoideguiter"
+    },
+    {
+      "id": "scene_party_2",
+      "text": "「これでHさんの心の扉はすべて開かれた。オイラにできるのはここまでだ。あとはくるみちゃんに頼むといい。」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "TEN",
+      "nextSceneId": "scene_party_3"
+    },
+    {
+      "id": "scene_party_3",
+      "text": "「はるか……」「ん？」「私の名前は遥。覚えておいて……」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_party_4"
+    },
+    {
+      "id": "scene_party_4",
+      "text": "「遥ちゃん、よろしくな。ちょっと待ってくるみちゃんを今呼ぶから」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "TEN",
+      "nextSceneId": "scene_party_5"
+    },
+    {
+      "id": "scene_party_5",
+      "text": "ほどなくしてくるみちゃんがやってきた。Kも一緒に来た。「さぁ、一杯やろうか」",
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "left": "kurumi_kimono_purple",
+        "right": "k_party"
+      },
+      "nextSceneId": "scene_party_6"
+    },
+    {
+      "id": "scene_party_6",
+      "text": "「俺たちは家族だ。この世界に能力を持った人間は約0.01％いるが、能力を自覚して活用しているのは一握りだ。マイノリティの俺たちはつながり助け合う必要がある。そう思わないか遥ちゃん」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "K",
+      "nextSceneId": "scene_party_7"
+    },
+    {
+      "id": "scene_party_7",
+      "text": "「どうして私の名前を？」「てんによって心の扉が開かれた今、私には開示情報が見えるのだよ、コウキちゃんのこともね。」",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "K",
+      "nextSceneId": "scene_party_8"
+    },
+    {
+      "id": "scene_party_8",
+      "text": "「幸喜……」幸喜を失ったとき遥はその半身を失ったような気がした。遥の自己肯定感の低さが成長とともに改善されなかった原因がここにあるような気がした。",
+      "backgroundId": "bg_concrete_area",
+      "characterId": "HARUKA",
+      "nextSceneId": "scene_party_9"
+    },
+    {
+      "id": "scene_party_9",
+      "text": "「さあ、みんな食べよう」。宴が始まる。",
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_ending_4"
+    },
+    {
+      "id": "scene_ending_4",
+      "text": "第4章 回顧 完",
+      "backgroundId": "",
+      "type": "ending"
+    }
+  ]
+}
