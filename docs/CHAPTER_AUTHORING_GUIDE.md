@@ -12,6 +12,8 @@ A comprehensive guide for creating chapters 5-8 based on lessons learned from de
 6. [Common Patterns](#common-patterns)
 7. [Testing and Validation](#testing-and-validation)
 
+> [!IMPORTANT] > **Source Materials Note**: Source text files and character profiles are stored outside this repository in the parent directory (`../source-materials/`). Only the compiled JSON chapter files are tracked in Git.
+
 ---
 
 ## Workflow Overview
@@ -389,14 +391,14 @@ From ch1-4 experience, you can use advanced character configuration:
 
 ### File Locations
 
-| Type         | Location                                      |
-| ------------ | --------------------------------------------- |
-| Source Text  | `source-materials/chapters/text/chapterN.txt` |
-| Chapter JSON | `src/data/chapters/chapterN.json`             |
-| Backgrounds  | `src/assets/images/backgrounds/`              |
-| Characters   | `src/assets/images/characters/`               |
-| BGM          | `src/assets/audio/bgm/`                       |
-| SE           | `src/assets/audio/se/`                        |
+| Type         | Location (relative to repo root)     | Notes                            |
+| ------------ | ------------------------------------ | -------------------------------- |
+| Source Text  | `../source-materials/chapters/text/` | Outside repository (not tracked) |
+| Chapter JSON | `src/data/chapters/chapterN.json`    | Tracked in Git                   |
+| Backgrounds  | `src/assets/images/backgrounds/`     | Tracked in Git                   |
+| Characters   | `src/assets/images/characters/`      | Tracked in Git                   |
+| BGM          | `src/assets/audio/bgm/`              | Tracked in Git                   |
+| SE           | `src/assets/audio/se/`               | Tracked in Git                   |
 
 ### Commands
 
@@ -409,7 +411,7 @@ From ch1-4 experience, you can use advanced character configuration:
 
 ### Support Files
 
-- Character Profiles: `source-materials/chapters/characters/`
+- Character Profiles: `../source-materials/chapters/characters/` (outside repo)
 - Asset Credits: `CREDITS.md`
 - Architecture Docs: `docs/ARCHITECTURE.md`
 - Asset Guidelines: `docs/ASSET_GUIDELINES.md`

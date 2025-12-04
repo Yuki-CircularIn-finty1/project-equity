@@ -57,9 +57,6 @@ npm run preview
 
 ```
 project-equity/
-├── source-materials/    # Source text and planning docs
-│   ├── chapters/        # Chapter source files and character profiles
-│   └── planning/        # Project planning documents
 ├── src/
 │   ├── assets/          # Images, audio, fonts
 │   │   ├── audio/       # Background music and sound effects

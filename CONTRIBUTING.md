@@ -90,6 +90,8 @@ docs(readme): update installation instructions
 
 ## Adding New Chapters
 
+> [!NOTE] > **Source Materials Location**: Planning documents and source text files are maintained outside the repository in the parent `me_1125/` directory. Only the compiled JSON chapters (`src/data/chapters/`) are tracked in Git.
+
 ### Complete Workflow
 
 1. **Plan Chapter**
