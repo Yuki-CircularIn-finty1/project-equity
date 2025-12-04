@@ -4,9 +4,10 @@ import type { Choice } from '../engine/types';
 interface ChoiceListProps {
   choices: Choice[];
   onSelect: (choiceId: string) => void;
+  language?: 'ja' | 'en';
 }
 
-const ChoiceListComponent: React.FC<ChoiceListProps> = ({ choices, onSelect }) => {
+const ChoiceListComponent: React.FC<ChoiceListProps> = ({ choices, onSelect, language = 'ja' }) => {
   return (
     <div
       style={{
@@ -50,15 +51,16 @@ const ChoiceListComponent: React.FC<ChoiceListProps> = ({ choices, onSelect }) =
             e.currentTarget.style.boxShadow = '0 0 15px rgba(74, 144, 226, 0.5)';
           }}
         >
-          {choice.text}
+          {typeof choice.text === 'string' ? choice.text : (language === 'en' ? choice.text.en : choice.text.ja)}
         </button>
       ))}
     </div>
   );
 };
 
-// Memoize - only re-render if choices array changes
+// Memoize - only re-render if choices array or language changes
 export const ChoiceList = React.memo(ChoiceListComponent, (prevProps, nextProps) => {
-  // Deep comparison of choices array
-  return JSON.stringify(prevProps.choices) === JSON.stringify(nextProps.choices);
+  // Deep comparison of choices array and language check
+  return prevProps.language === nextProps.language && 
+         JSON.stringify(prevProps.choices) === JSON.stringify(nextProps.choices);
 });

@@ -2,15 +2,16 @@ import React from 'react';
 
 interface LogEntry {
   characterName?: string;
-  text: string;
+  text: string | { ja: string; en: string };
 }
 
 interface BacklogUIProps {
   log: LogEntry[];
   onClose: () => void;
+  language?: 'ja' | 'en';
 }
 
-export const BacklogUI: React.FC<BacklogUIProps> = ({ log, onClose }) => {
+export const BacklogUI: React.FC<BacklogUIProps> = ({ log, onClose, language = 'ja' }) => {
   return (
     <div style={{
       position: 'absolute',
@@ -61,7 +62,9 @@ export const BacklogUI: React.FC<BacklogUIProps> = ({ log, onClose }) => {
                   {entry.characterName}
                 </div>
               )}
-              <div style={{ lineHeight: '1.5' }}>{entry.text}</div>
+              <div style={{ lineHeight: '1.5' }}>
+                {typeof entry.text === 'string' ? entry.text : (language === 'en' ? entry.text.en : entry.text.ja)}
+              </div>
             </div>
           ))
         )}

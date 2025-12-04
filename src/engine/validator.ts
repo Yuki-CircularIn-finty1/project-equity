@@ -3,7 +3,10 @@ import { ValidationError } from './errors';
 
 const ChoiceSchema = z.object({
   id: z.string(),
-  text: z.string(),
+  text: z.union([
+    z.string(),
+    z.object({ ja: z.string(), en: z.string() })
+  ]),
   nextSceneId: z.string(),
   condition: z.string().optional(),
 });
@@ -22,7 +25,10 @@ const CharacterConfigSchema = z.union([
 
 const SceneSchema = z.object({
   id: z.string(),
-  text: z.string(),
+  text: z.union([
+    z.string(),
+    z.object({ ja: z.string(), en: z.string() })
+  ]),
   backgroundId: z.string(),
   characterId: z.string().optional(),
   characterImgId: z.string().optional(), // Legacy single character support

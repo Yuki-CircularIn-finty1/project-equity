@@ -76,7 +76,10 @@ Each chapter JSON follows this schema:
   "scenes": [
     {
       "id": "unique_scene_id",
-      "text": "Dialogue or narration",
+      "text": {
+        "ja": "日本語のテキスト",
+        "en": "English text"
+      },
       "nextSceneId": "next_scene_id",
 
       // Optional fields
@@ -92,6 +95,8 @@ Each chapter JSON follows this schema:
   ]
 }
 ```
+
+**Note**: For bilingual support, use the `{ ja: "...", en: "..." }` format. For Japanese-only chapters, a simple string is also supported: `"text": "テキスト"`.
 
 ### 2. Scene ID Naming Convention
 

@@ -2,7 +2,7 @@ import type { BackgroundId, BgmId, SeId } from '../types/assets';
 
 export interface Choice {
   id: string;
-  text: string;
+  text: string | { ja: string; en: string };
   nextSceneId: string;
   condition?: string; // Optional flag condition
 }
@@ -20,7 +20,7 @@ export interface CharacterConfig {
 
 export interface Scene {
   id: string;
-  text: string;
+  text: string | { ja: string; en: string };
   backgroundId: BackgroundId; // Type-safe background ID
   nextSceneId?: string;
   choices?: Choice[];
@@ -45,7 +45,7 @@ export interface GameState {
   currentSceneId: string;
   flags: Record<string, boolean | number | string>;
   history: string[]; // List of visited scene IDs
-  log: { characterName?: string; text: string }[]; // Dialogue history
+  log: { characterName?: string; text: string | { ja: string; en: string } }[]; // Dialogue history
 }
 
 export interface Config {

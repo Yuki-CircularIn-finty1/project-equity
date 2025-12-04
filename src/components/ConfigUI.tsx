@@ -5,6 +5,8 @@ interface ConfigUIProps {
   setSeVolume: (vol: number) => void;
   windowScale: number;
   setWindowScale: (scale: number) => void;
+  language: 'ja' | 'en';
+  setLanguage: (lang: 'ja' | 'en') => void;
   textSpeed?: number;
   setTextSpeed?: (speed: number) => void;
   onClose: () => void;
@@ -17,6 +19,8 @@ const ConfigUI = ({
   setSeVolume, 
   windowScale,
   setWindowScale,
+  language,
+  setLanguage,
   onClose 
 }: ConfigUIProps) => {
   return (
@@ -64,6 +68,42 @@ const ConfigUI = ({
           onChange={(e) => setSeVolume(parseFloat(e.target.value))}
           style={{ width: '100%' }}
         />
+      </div>
+
+      <div style={{ width: '300px', marginBottom: '20px' }}>
+        <label style={{ display: 'block', marginBottom: '10px' }}>
+          Language
+        </label>
+        <div style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
+          <button
+            onClick={() => setLanguage('ja')}
+            style={{
+              flex: 1,
+              padding: '10px',
+              backgroundColor: language === 'ja' ? '#4a90e2' : 'rgba(255,255,255,0.2)',
+              border: '1px solid #fff',
+              color: 'white',
+              cursor: 'pointer',
+              borderRadius: '3px'
+            }}
+          >
+            日本語
+          </button>
+          <button
+            onClick={() => setLanguage('en')}
+            style={{
+              flex: 1,
+              padding: '10px',
+              backgroundColor: language === 'en' ? '#4a90e2' : 'rgba(255,255,255,0.2)',
+              border: '1px solid #fff',
+              color: 'white',
+              cursor: 'pointer',
+              borderRadius: '3px'
+            }}
+          >
+            English
+          </button>
+        </div>
       </div>
 
       <div style={{ width: '300px', marginBottom: '20px' }}>

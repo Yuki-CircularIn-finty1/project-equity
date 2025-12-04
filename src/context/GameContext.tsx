@@ -18,6 +18,7 @@ interface GameContextState {
   gameStarted: boolean;
   selectedChapterId: string;
   windowScale: number;
+  language: 'ja' | 'en';
 }
 
 // Define actions
@@ -28,7 +29,8 @@ type GameAction =
   | { type: 'START_GAME' }
   | { type: 'RESET_GAME' }
   | { type: 'SET_CHAPTER'; payload: string }
-  | { type: 'SET_SCALE'; payload: number };
+  | { type: 'SET_SCALE'; payload: number }
+  | { type: 'SET_LANGUAGE'; payload: 'ja' | 'en' };
 
 // Initial state
 const initialState: GameContextState = {
@@ -39,6 +41,7 @@ const initialState: GameContextState = {
   gameStarted: false,
   selectedChapterId: 'chapter1',
   windowScale: 1.0,
+  language: 'ja',
 };
 
 // Reducer
@@ -69,6 +72,8 @@ function gameReducer(state: GameContextState, action: GameAction): GameContextSt
       return { ...state, selectedChapterId: action.payload };
     case 'SET_SCALE':
       return { ...state, windowScale: action.payload };
+    case 'SET_LANGUAGE':
+      return { ...state, language: action.payload };
     default:
       return state;
   }
@@ -83,12 +88,13 @@ interface GameContextValue extends GameContextState {
   continueGame: () => void;
   setChapter: (chapterId: string) => void;
   setScale: (scale: number) => void;
+  setLanguage: (lang: 'ja' | 'en') => void;
   hasAutoSave: () => boolean;
   bgmVolume: number;
   setBgmVolume: (vol: number) => void;
   seVolume: number;
   setSeVolume: (vol: number) => void;
-  log: { characterName?: string; text: string }[];
+  log: { characterName?: string; text: string | { ja: string; en: string } }[];
 }
 
 const GameContext = createContext<GameContextValue | undefined>(undefined);
@@ -215,6 +221,10 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     dispatch({ type: 'SET_SCALE', payload: scale });
   }, []);
 
+  const setLanguage = useCallback((lang: 'ja' | 'en') => {
+    dispatch({ type: 'SET_LANGUAGE', payload: lang });
+  }, []);
+
   // Memoize context value to prevent unnecessary re-renders
   const value: GameContextValue = useMemo(() => ({
     ...state,
@@ -225,6 +235,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     continueGame,
     setChapter,
     setScale,
+    setLanguage,
     hasAutoSave,
     bgmVolume,
     setBgmVolume,
@@ -240,6 +251,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     continueGame,
     setChapter,
     setScale,
+    setLanguage,
     hasAutoSave,
     bgmVolume,
     setBgmVolume,

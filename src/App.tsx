@@ -152,7 +152,8 @@ const GameContent = () => {
     selectedChapterId,
     windowScale,
     setScale,
-    bgmVolume, setBgmVolume, seVolume, setSeVolume
+    bgmVolume, setBgmVolume, seVolume, setSeVolume,
+    language, setLanguage
   } = useGame();
 
   const [showSaveLoad, setShowSaveLoad] = useState<'save' | 'load' | null>(null);
@@ -362,6 +363,8 @@ const GameContent = () => {
               setSeVolume={setSeVolume} 
               windowScale={windowScale}
               setWindowScale={setScale}
+              language={language}
+              setLanguage={setLanguage}
               onClose={() => setShowConfig(false)} 
             />
           </Suspense>
@@ -433,7 +436,7 @@ const GameContent = () => {
           </div>
 
           {currentScene.choices && currentScene.choices.length > 0 && (
-            <ChoiceList choices={currentScene.choices} onSelect={makeChoice} />
+            <ChoiceList choices={currentScene.choices} onSelect={makeChoice} language={language} />
           )}
         </div>
 
@@ -442,6 +445,7 @@ const GameContent = () => {
             text={currentScene.text} 
             characterName={currentScene.characterId}
             onNext={next}
+            language={language}
           />
         </div>
       </div>
@@ -482,6 +486,8 @@ const GameContent = () => {
             setSeVolume={setSeVolume} 
             windowScale={windowScale}
             setWindowScale={setScale}
+            language={language}
+            setLanguage={setLanguage}
             onClose={() => setShowConfig(false)} 
           />
         </Suspense>

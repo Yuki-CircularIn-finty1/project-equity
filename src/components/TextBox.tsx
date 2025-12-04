@@ -2,14 +2,19 @@ import React, { useState } from 'react';
 import { TypewriterText, type TypewriterHandle } from './TypewriterText';
 
 interface TextBoxProps {
-  text: string;
+  text: string | { ja: string; en: string };
   characterName?: string;
   onNext: () => void;
+  language?: 'ja' | 'en';
 }
 
-export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNext }) => {
+export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNext, language = 'ja' }) => {
   const [isTyping, setIsTyping] = useState(true);
   const typewriterRef = React.useRef<TypewriterHandle>(null);
+
+  const displayText = typeof text === 'string' 
+    ? text 
+    : (language === 'en' ? text.en : text.ja);
 
   const handleClick = () => {
     if (isTyping) {
@@ -46,9 +51,9 @@ export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNe
       )}
       <div>
         <TypewriterText 
-          key={text}
+          key={displayText}
           ref={typewriterRef}
-          text={text} 
+          text={displayText} 
           speed={30} 
           onStart={() => setIsTyping(true)}
           onComplete={() => setIsTyping(false)} 

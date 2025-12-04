@@ -13,6 +13,7 @@ A browser-based visual novel (sound novel) game engine built with React, TypeScr
 - ⚙️ Configurable settings (text speed, volume)
 - 🎭 Dynamic character effects (scale, opacity, filters)
 - 🌐 Browser-based, no installation required
+- 🗣️ Bilingual support (Japanese/English)
 
 ## Quick Start
 
@@ -93,7 +94,10 @@ Example chapter structure:
   "scenes": [
     {
       "id": "scene1",
-      "text": "Story text here",
+      "text": {
+        "ja": "物語のテキスト",
+        "en": "Story text here"
+      },
       "backgroundId": "bg_room",
       "nextSceneId": "scene2",
       "characters": {
@@ -103,6 +107,8 @@ Example chapter structure:
   ]
 }
 ```
+
+_Note: `text` can be a simple string (for single language) or an object with `ja` and `en` keys._
 
 ### Adding Character Sprites
 

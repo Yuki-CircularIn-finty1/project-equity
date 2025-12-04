@@ -2,135 +2,201 @@
   "scenes": [
     {
       "id": "scene_start",
-      "text": "第1章 現象",
+      "text": {
+        "ja": "第1章 現象",
+        "en": "Chapter 1: Phenomenon"
+      },
       "backgroundId": "Welcome",
       "nextSceneId": "scene_train_1",
       "bgm": "ghost_doodle"
     },
     {
       "id": "scene_train_1",
-      "text": "カツーンと明瞭な音が車内に響き渡った。佐藤遥は特段、それを不快なものとも思わなかったが、本能的に恐怖を覚えた。",
+      "text": {
+        "ja": "カツーンと明瞭な音が車内に響き渡った。佐藤遥は特段、それを不快なものとも思わなかったが、本能的に恐怖を覚えた。",
+        "en": "A clear 'clack' echoed through the train car. Haruka Sato didn't find it particularly unpleasant, but instinctively felt fear."
+      },
       "backgroundId": "bg_train_interior",
       "nextSceneId": "scene_train_2",
       "se": "wine-glass-clink-36036"
     },
     {
       "id": "scene_train_2",
-      "text": "カツーン、カツーン、音は響き渡る。それが自分の口から零れ落ちたものだと気づくには幾分の時間もかからなかった。",
+      "text": {
+        "ja": "カツーン、カツーン、音は響き渡る。それが自分の口から零れ落ちたものだと気づくには幾分の時間もかからなかった。",
+        "en": "'Clack, clack,' the sound echoed. It didn't take long for her to realize it had spilled from her own mouth."
+      },
       "backgroundId": "bg_train_interior",
       "nextSceneId": "scene_train_3",
       "se": "wine-glass-clink-36036"
     },
     {
       "id": "scene_train_3",
-      "text": "小さくて球状の物体（以下、「小玉」）。歪な形をしたそれが遥の口から零れ落ちていた。周囲の視線が身体に突き刺さる。",
+      "text": {
+        "ja": "小さくて球状の物体（以下、「小玉」）。歪な形をしたそれが遥の口から零れ落ちていた。周囲の視線が身体に突き刺さる。",
+        "en": "Small, spherical objects (hereinafter referred to as 'small balls'). Distorted shapes were spilling from Haruka's mouth. The surrounding gazes pierced her body."
+      },
       "backgroundId": "bg_train_interior",
       "nextSceneId": "scene_train_4"
     },
     {
       "id": "scene_train_4",
-      "text": "次の停車駅の時間までがもどかしい。いよいよ電車が停車すると遥は一目散にトイレに駆け込んだ。吐いた。込み上げてくる液体が酸っぱい。しかし小玉はもう落ちてこなかった。",
+      "text": {
+        "ja": "次の停車駅の時間までがもどかしい。いよいよ電車が停車すると遥は一目散にトイレに駆け込んだ。吐いた。込み上げてくる液体が酸っぱい。しかし小玉はもう落ちてこなかった。",
+        "en": "The time until the next stop felt agonizingly long. When the train finally stopped, Haruka rushed into the restroom. She vomited. The rising liquid was sour. But no more small balls fell out."
+      },
       "backgroundId": "bg_train_interior",
       "nextSceneId": "scene_haruka_room_prep_1"
     },
     {
       "id": "scene_haruka_room_prep_1",
-      "text": "遥は帰宅すると、制服を脱ぎ、通販サイトのセールで買った黒のワンピースに身を包んだ。上からネイビーのコートを着た。姉から借りたものだ。",
+      "text": {
+        "ja": "遥は帰宅すると、制服を脱ぎ、通販サイトのセールで買った黒のワンピースに身を包んだ。上からネイビーのコートを着た。姉から借りたものだ。",
+        "en": "Upon returning home, Haruka took off her uniform and changed into a black dress she bought on sale online. She put on a navy coat over it. It was borrowed from her sister."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_haruka_room_prep_2"
     },
     {
       "id": "scene_haruka_room_prep_2",
-      "text": "椎名智也とのデートまで後1時間。化粧を丁寧に終えると鏡を入念に確認し、再び家を後にする。男性とのデートはこれが始めてではない。",
+      "text": {
+        "ja": "椎名智也とのデートまで後1時間。化粧を丁寧に終えると鏡を入念に確認し、再び家を後にする。男性とのデートはこれが始めてではない。",
+        "en": "One hour until her date with Tomoya Shiina. After carefully applying her makeup, she checked the mirror thoroughly and left the house again. This wasn't her first date with a man."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_haruka_room_prep_3"
     },
     {
       "id": "scene_haruka_room_prep_3",
-      "text": "しかし、椎名智也は武蔵高校のアイドルだった。そんな智也は遥の1つ上の先輩であり、受験生であった。",
+      "text": {
+        "ja": "しかし、椎名智也は武蔵高校のアイドルだった。そんな智也は遥の1つ上の先輩であり、受験生であった。",
+        "en": "However, Tomoya Shiina was the idol of Musashi High School. He was one year her senior and an examinee."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_haruka_room_prep_4"
     },
     {
       "id": "scene_haruka_room_prep_4",
-      "text": "センター試験をまもなく控えた1月の上旬にデートをしてくれるのは彼の優しさなのか、怠慢なのか遥には分からない。告白したのも半年も前のことだ。",
+      "text": {
+        "ja": "センター試験をまもなく控えた1月の上旬にデートをしてくれるのは彼の優しさなのか、怠慢なのか遥には分からない。告白したのも半年も前のことだ。",
+        "en": "Whether it was his kindness or negligence to go on a date in early January, just before the Center Exam, Haruka didn't know. It had been half a year since she confessed."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_haruka_room_prep_5"
     },
     {
       "id": "scene_haruka_room_prep_5",
-      "text": "どこからか遥のLINEの連絡先を聞いた智也は今日のデートの誘いを昨日してきた。全身の毛も剃ってある。いつそういうことになってもおかしくないように準備はしてきた。",
+      "text": {
+        "ja": "どこからか遥のLINEの連絡先を聞いた智也は今日のデートの誘いを昨日してきた。全身の毛も剃ってある。いつそういうことになってもおかしくないように準備はしてきた。",
+        "en": "Tomoya, who had somehow gotten Haruka's LINE contact, invited her on this date yesterday. She had shaved her entire body. She had prepared so that she would be ready whenever it happened."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_tomoya_house_arrival"
     },
     {
       "id": "scene_tomoya_house_arrival",
-      "text": "遥は指定された住所を元に智也の家を突きとめた。一瞬の逡巡の後、インターホンを押す。「どうぞ」。",
+      "text": {
+        "ja": "遥は指定された住所を元に智也の家を突きとめた。一瞬の逡巡の後、インターホンを押す。「どうぞ」。",
+        "en": "Haruka located Tomoya's house based on the address provided. After a moment of hesitation, she pressed the intercom. 'Come in.'"
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_house_entry"
     },
     {
       "id": "scene_tomoya_house_entry",
-      "text": "くぐもった声で短い返答があった。学校で聞きなじみのある爽やかで明るい声と同一人物であることを疑わしく思わせるものであったが、遥には分からない。",
+      "text": {
+        "ja": "くぐもった声で短い返答があった。学校で聞きなじみのある爽やかで明るい声と同一人物であることを疑わしく思わせるものであったが、遥には分からない。",
+        "en": "There was a short reply in a muffled voice. It made her doubt if it was the same person as the refreshing, bright voice she was used to hearing at school, but Haruka didn't know."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_house_entry_2"
     },
     {
       "id": "scene_tomoya_house_entry_2",
-      "text": "舞い上がっているのである。学園のアイドル。ルックスがそれほど良い分けではない。ジャニーズ系でもEXILE系でもなくどこか中性的な印象を与える彼は剣道の全国大会で優勝するほどの腕前であり、文化祭実行委員会委員長である。",
+      "text": {
+        "ja": "舞い上がっているのである。学園のアイドル。ルックスがそれほど良い分けではない。ジャニーズ系でもEXILE系でもなくどこか中性的な印象を与える彼は剣道の全国大会で優勝するほどの腕前であり、文化祭実行委員会委員長である。",
+        "en": "She was floating on air. The school idol. His looks weren't exceptionally good. Neither Johnny's style nor EXILE style, but giving a somewhat androgynous impression, he was skilled enough to win the national kendo tournament and was the chairman of the cultural festival executive committee."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_house_entry_3"
     },
     {
       "id": "scene_tomoya_house_entry_3",
-      "text": "彼が話をする空間はどこか華があり、輪の中心にはいつも彼がいた。そんな彼が遥に声を掛けてくれたのである。令和始まって最大のイベントである。",
+      "text": {
+        "ja": "彼が話をする空間はどこか華があり、輪の中心にはいつも彼がいた。そんな彼が遥に声を掛けてくれたのである。令和始まって最大のイベントである。",
+        "en": "The space where he spoke had a certain glamour, and he was always at the center of the circle. Such a person had called out to Haruka. It was the biggest event since the beginning of the Reiwa era."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_house_entry_4"
     },
     {
       "id": "scene_tomoya_house_entry_4",
-      "text": "遥は成績こそ悪くはなかったが、これといった特技もなく、趣味もネットサーフィン程度、つまり魅力とは何なのかということすら考えを巡らせることがなかった。そんな遥と智也の接点を遥はどう受け止めていいのかわからない。",
+      "text": {
+        "ja": "遥は成績こそ悪くはなかったが、これといった特技もなく、趣味もネットサーフィン程度、つまり魅力とは何なのかということすら考えを巡らせることがなかった。そんな遥と智也の接点を遥はどう受け止めていいのかわからない。",
+        "en": "Haruka's grades weren't bad, but she had no special skills, her hobby was just surfing the net, and she had never even thought about what charm was. Haruka didn't know how to accept the connection between herself and Tomoya."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_room_door"
     },
     {
       "id": "scene_tomoya_room_door",
-      "text": "灰色の無機質な壁に黒の扉。その扉をあけると、２階から声がする。「こっちだよ」",
+      "text": {
+        "ja": "灰色の無機質な壁に黒の扉。その扉をあけると、２階から声がする。「こっちだよ」",
+        "en": "Gray inorganic walls and a black door. When she opened the door, a voice came from the second floor. 'Over here.'"
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_room_stairs"
     },
     {
       "id": "scene_tomoya_room_stairs",
-      "text": "遥は近づいていく。階段をみしりみしりと一段一段上がっていくと、彼の部屋から微かな香りが漂ってくる。これはラベンダーか。",
+      "text": {
+        "ja": "遥は近づいていく。階段をみしりみしりと一段一段上がっていくと、彼の部屋から微かな香りが漂ってくる。これはラベンダーか。",
+        "en": "Haruka approached. As she climbed the creaking stairs step by step, a faint scent drifted from his room. Is this lavender?"
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_tomoya_room_inside"
     },
     {
       "id": "scene_tomoya_room_inside",
-      "text": "「こっちへおいで」彼の囁きが遥の首筋をくすぐる。",
+      "text": {
+        "ja": "「こっちへおいで」彼の囁きが遥の首筋をくすぐる。",
+        "en": "'Come here,' his whisper tickled Haruka's neck."
+      },
       "backgroundId": "bg_tomoya_room",
       "choices": [
         {
           "id": "choice_approach",
-          "text": "彼に近づく",
+          "text": {
+            "ja": "彼に近づく",
+            "en": "Approach him"
+          },
           "nextSceneId": "scene_incident_start"
         },
         {
           "id": "choice_hesitate",
-          "text": "立ち止まる",
+          "text": {
+            "ja": "立ち止まる",
+            "en": "Stand still"
+          },
           "nextSceneId": "scene_incident_start"
         }
       ]
     },
     {
       "id": "scene_incident_start",
-      "text": "そんなつもりじゃなかったのにとかまととぶる暇もなく、遥は智也の元に吸い込まれていく。その時だった。",
+      "text": {
+        "ja": "そんなつもりじゃなかったのにとかまととぶる暇もなく、遥は智也の元に吸い込まれていく。その時だった。",
+        "en": "Without even time to feign innocence thinking she didn't intend for this, Haruka was sucked towards Tomoya. It was then."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_incident_clack"
     },
     {
       "id": "scene_incident_clack",
-      "text": "カツーン。どこかで聞いた明瞭な音が響き渡る。と思ったのも束の間、カラカラカラン、大量の小玉が智也の膝の上に落ちる。",
+      "text": {
+        "ja": "カツーン。どこかで聞いた明瞭な音が響き渡る。と思ったのも束の間、カラカラカラン、大量の小玉が智也の膝の上に落ちる。",
+        "en": "Clack. A clear sound she had heard somewhere echoed. Just as she thought that, clatter clatter, a large number of small balls fell onto Tomoya's lap."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_incident_scream",
       "se": "wine-glass-clink-36036",
@@ -139,31 +205,46 @@
     },
     {
       "id": "scene_incident_scream",
-      "text": "声にならない悲鳴を上げた智也は腰を抜かしてその場にへたり込んだ。「ト、トイレどこですか？」",
+      "text": {
+        "ja": "声にならない悲鳴を上げた智也は腰を抜かしてその場にへたり込んだ。「ト、トイレどこですか？」",
+        "en": "Tomoya, letting out a voiceless scream, lost his strength and collapsed on the spot. 'W-Where is the toilet?'"
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_incident_leave"
     },
     {
       "id": "scene_incident_leave",
-      "text": "遥は思わず詰問するかのように聞き出し、その場を後にした。嘔吐いた末、出てくるものはもう何もなかった。",
+      "text": {
+        "ja": "遥は思わず詰問するかのように聞き出し、その場を後にした。嘔吐いた末、出てくるものはもう何もなかった。",
+        "en": "Haruka unintentionally asked as if interrogating, and left the place. After retching, nothing more came out."
+      },
       "backgroundId": "bg_tomoya_room",
       "nextSceneId": "scene_haruka_room_wake"
     },
     {
       "id": "scene_haruka_room_wake",
-      "text": "それからどういう経緯で帰宅したのかは覚えていない。気づいたときには自室にいた。冷や汗が脇を伝う。",
+      "text": {
+        "ja": "それからどういう経緯で帰宅したのかは覚えていない。気づいたときには自室にいた。冷や汗が脇を伝う。",
+        "en": "She didn't remember how she got home after that. When she realized, she was in her own room. Cold sweat ran down her side."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_haruka_room_realization"
     },
     {
       "id": "scene_haruka_room_realization",
-      "text": "自分の身体に何か異変がある、そう強く自覚した最初の瞬間だった。智也とのデートの日は闇に押しつぶされた。",
+      "text": {
+        "ja": "自分の身体に何か異変がある、そう強く自覚した最初の瞬間だった。智也とのデートの日は闇に押しつぶされた。",
+        "en": "It was the first moment she strongly realized something was wrong with her body. The day of the date with Tomoya was crushed by darkness."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_ending_1"
     },
     {
       "id": "scene_ending_1",
-      "text": "第1章 現象 完",
+      "text": {
+        "ja": "第1章 現象 完",
+        "en": "Chapter 1: Phenomenon - End"
+      },
       "backgroundId": "",
       "type": "ending"
     }
