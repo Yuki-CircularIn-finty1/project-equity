@@ -68,6 +68,7 @@ project-equity/
 │   ├── hooks/           # Custom React hooks
 │   └── App.tsx          # Main application
 ├── docs/                # Documentation
+│   ├── PROJECT_GUIDE.md
 │   ├── CHAPTER_AUTHORING_GUIDE.md
 │   └── ASSET_GUIDELINES.md
 ├── public/              # Static assets
@@ -176,6 +177,7 @@ Output will be in the `dist/` directory. Deploy these files to any static web ho
 
 ## Documentation
 
+- [Project Guide](docs/PROJECT_GUIDE.md) - Complete project structure and architecture guide
 - [Chapter Authoring Guide](docs/CHAPTER_AUTHORING_GUIDE.md) - Complete guide for creating chapters 5-8
 - [Asset Guidelines](docs/ASSET_GUIDELINES.md) - Asset specifications and optimization
 - [Contributing](CONTRIBUTING.md) - How to contribute to the project
