@@ -30,22 +30,10 @@ export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNe
       role="button"
       tabIndex={0}
       aria-label="Next scene"
-      style={{
-        position: 'relative', // Changed from absolute
-        width: '100%',
-        height: '100%',
-        backgroundColor: 'transparent', // Container has background
-        color: 'white',
-        padding: '20px 40px', // Increased horizontal padding
-        cursor: 'pointer',
-        fontFamily: 'sans-serif',
-        fontSize: '24px',
-        lineHeight: '1.5',
-        boxSizing: 'border-box', // Ensure padding doesn't overflow
-      }}
+      className="text-box"
     >
       {characterName && (
-        <div style={{ fontWeight: 'bold', marginBottom: '10px', color: '#ffcc00' }}>
+        <div className="text-box-name">
           {characterName}
         </div>
       )}
@@ -59,21 +47,11 @@ export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNe
           onComplete={() => setIsTyping(false)} 
         />
         {!isTyping && (
-          <span style={{ 
-            display: 'inline-block', 
-            marginLeft: '5px', 
-            animation: 'blink 1s infinite' 
-          }}>
+          <span className="text-cursor">
             ▼
           </span>
         )}
       </div>
-      <style>{`
-        @keyframes blink {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0; }
-        }
-      `}</style>
     </div>
   );
 };

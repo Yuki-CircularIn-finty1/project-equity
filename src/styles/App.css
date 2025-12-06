@@ -1,0 +1,276 @@
+/* Main Game Container - Enforces 16:9 aspect ratio via GameLayout wrapper, 
+   but this handles the internal flex structure */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* Visual Area (Top 75% approx) */
+.visual-area {
+  position: relative;
+  flex: 3;
+  overflow: hidden;
+  width: 100%;
+  transition: flex 0.3s ease; /* Smooth transition when expanding */
+}
+
+.visual-area.full-screen {
+  flex: 1; /* Takes up full space when text box is hidden/collapsed */
+}
+
+/* Story Area (Bottom 25% approx) */
+.story-area {
+  position: relative;
+  flex: 1;
+  background-color: #000;
+  border-top: 2px solid #333;
+  width: 100%;
+  z-index: 20;
+  transition: all 0.3s ease;
+  overflow: hidden; /* Ensure content doesn't spill when collapsed */
+}
+
+.story-area.hidden {
+  flex: 0;
+  border-top: none;
+  opacity: 0;
+  pointer-events: none; /* Prevent clicks when hidden */
+}
+
+/* TextBox Styles */
+.text-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 20px 40px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.text-box-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.text-cursor {
+  display: inline-block;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Title Screen */
+.title-menu-container {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  z-index: 10;
+  padding: 20px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 20px 20px 0 0;
+}
+
+.title-menu-buttons-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.title-menu-secondary-row {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  width: 100%;
+}
+
+/* Component Styles */
+.title-button {
+  min-width: auto;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: rgba(15, 15, 35, 0.9);
+  border: 3px solid rgba(180, 180, 240, 0.7);
+  border-radius: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  font-family: inherit;
+  text-align: center;
+  width: 100%;
+}
+
+.title-button:hover {
+  background-color: rgba(70, 70, 140, 0.95);
+  border-color: rgba(230, 230, 255, 1);
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(120, 120, 255, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.title-button:active {
+  transform: scale(1);
+}
+
+.secondary-button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(15, 15, 35, 0.85);
+  border: 1px solid rgba(180, 180, 240, 0.5);
+  border-radius: 8px;
+  color: #e0e0ff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  font-family: inherit;
+  min-width: auto;
+  text-align: center;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background-color: rgba(40, 40, 80, 0.9);
+  border-color: white;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.secondary-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* In-game Menu Buttons */
+.menu-buttons-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 20;
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.menu-buttons-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+}
+
+.icon-button img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Ending Screen */
+.ending-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+.ending-text {
+  color: yellow;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.ending-button {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  /* On mobile portrait, we might want purely responsive sizing if not locked to landscape.
+     However, the requirement is "Landscape-first". 
+     The GameLayout handles the 16:9 container. 
+     These styles are inside that container. */
+
+  .title-menu-container {
+    width: 90%;
+    bottom: 5%;
+  }
+
+  /* Make icons a bit easier to tap */
+  .icon-button {
+    padding: 10px;
+  }
+
+  /* TextBox Mobile Adjustments */
+  .text-box {
+    padding: 15px 20px;
+    font-size: 18px; /* Smaller text for mobile */
+    line-height: 1.4;
+  }
+  
+  .text-box-name {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}
