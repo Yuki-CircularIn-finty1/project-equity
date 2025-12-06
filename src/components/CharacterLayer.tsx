@@ -69,7 +69,7 @@ const CharacterLayerComponent: React.FC<CharacterLayerProps> = ({ characterImgId
       return null;
     }
 
-    const finalScale = Math.max(0.1, Math.min(5.0, scale ?? 1.0));
+    const finalScale = Math.max(0.1, Math.min(5.0, (scale ?? 1.0) * 1.1));
     const finalOpacity = Math.max(0.0, Math.min(1.0, opacity ?? 1.0));
 
     const src = getCharacterSrc(image);
@@ -83,7 +83,6 @@ const CharacterLayerComponent: React.FC<CharacterLayerProps> = ({ characterImgId
 
     // Boundary enforcement configuration
     const enforceBoundaries = config.enforceBoundaries ?? true;
-
 
     
     // Strict Grid Layout System
@@ -168,7 +167,7 @@ const CharacterLayerComponent: React.FC<CharacterLayerProps> = ({ characterImgId
     // Build style object with correct positioning property
     const positionStyle: React.CSSProperties = {
       position: 'absolute',
-      bottom: '0',
+      bottom: '10%',
       transform: finalTransform,
       maxHeight: '100%',
       width: 'auto',
