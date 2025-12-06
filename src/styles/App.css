@@ -18,10 +18,7 @@
   overflow: hidden;
 }
 
-.visual-area.full-screen {
-  /* No change needed as it's already full screen, 
-     but keeping class for semantic triggers if needed */
-}
+
 
 /* Story Area (Overlay at bottom) */
 .story-area {
@@ -29,16 +26,18 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 35%; /* Occupy bottom 35% */
+  height: auto; /* Allow growth */
+  min-height: 20%; /* Minimum height for aesthetics */
   /* Gradient background for readability */
   background: linear-gradient(to top, rgba(0,0,0,0.95) 10%, rgba(0,0,0,0.6) 80%, transparent 100%);
   z-index: 20;
-  transition: all 0.3s ease;
+  transition: opacity 0.3s ease; /* Only fade opacity, don't transition height to avoid jerky typing */
+  padding-bottom: 3%; /* 3% "margin" at the bottom inside the box */
   overflow: hidden;
 }
 
 .story-area.hidden {
-  height: 0; /* Collapse height */
+  /* height: 0;  <-- REMOVED: Don't collapse height, just fade out */
   opacity: 0;
   pointer-events: none;
 }
@@ -47,14 +46,14 @@
 .text-box {
   position: relative;
   width: 100%;
-  height: 100%;
+  /* Removed fixed height: 100% so it wraps content */
   background-color: transparent;
   color: white;
-  padding: 40px 40px 20px 40px; /* More top padding for gradient fade */
+  padding: 40px 40px 0 40px; /* Removing bottom padding from container, handled by story-area/wrapper */
   cursor: pointer;
   font-family: sans-serif;
   font-size: 24px;
-  line-height: 1.6; /* Slightly more breathing room */
+  line-height: 1.6; 
   box-sizing: border-box;
 }
 
@@ -64,10 +63,37 @@
   color: #ffcc00;
 }
 
+/* Ghost Text Implementation */
+.text-content-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.text-ghost {
+  visibility: hidden;
+  white-space: pre-wrap; /* Ensure wrapping matches */
+}
+
+.text-visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  white-space: pre-wrap;
+}
+
 .text-cursor {
   display: inline-block;
   margin-left: 5px;
   animation: blink 1s infinite;
+}
+
+/* Placeholder in ghost text to ensure cursor space is reserved */
+.text-cursor-placeholder {
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 0;
 }
 
 @keyframes blink {

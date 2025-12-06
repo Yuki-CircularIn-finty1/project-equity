@@ -37,20 +37,32 @@ export const TextBox: React.FC<TextBoxProps> = ({ text = "", characterName, onNe
           {characterName}
         </div>
       )}
-      <div>
-        <TypewriterText 
-          key={displayText}
-          ref={typewriterRef}
-          text={displayText} 
-          speed={30} 
-          onStart={() => setIsTyping(true)}
-          onComplete={() => setIsTyping(false)} 
-        />
-        {!isTyping && (
-          <span className="text-cursor">
-            ▼
-          </span>
-        )}
+      
+      {/* Container for text content */}
+      <div className="text-content-wrapper">
+        {/* Ghost Text: Reserves space for the full text */}
+        <div className="text-ghost">
+          {displayText}
+          {/* Add cursor space to ghost so it matches height if cursor wraps */}
+          <span className="text-cursor-placeholder">▼</span>
+        </div>
+
+        {/* Visible Text: The actual typewriter effect */}
+        <div className="text-visible">
+          <TypewriterText 
+            key={displayText}
+            ref={typewriterRef}
+            text={displayText} 
+            speed={30} 
+            onStart={() => setIsTyping(true)}
+            onComplete={() => setIsTyping(false)} 
+          />
+          {!isTyping && (
+            <span className="text-cursor">
+              ▼
+            </span>
+          )}
+        </div>
       </div>
     </div>
   );
