@@ -6,6 +6,7 @@ import chapter1Data from '../data/chapters/chapter1.json';
 import chapter2Data from '../data/chapters/chapter2.json';
 import chapter3Data from '../data/chapters/chapter3.json';
 import chapter4Data from '../data/chapters/chapter4.json';
+import chapter5Data from '../data/chapters/chapter5.json';
 import { useAutoSave } from '../hooks/useAutoSave';
 import { useAudioController } from '../hooks/useAudioController';
 
@@ -112,7 +113,8 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Initialize engine on mount or chapter change
   useEffect(() => {
     try {
-      const data = state.selectedChapterId === 'chapter4' ? chapter4Data
+      const data = state.selectedChapterId === 'chapter5' ? chapter5Data
+                 : state.selectedChapterId === 'chapter4' ? chapter4Data
                  : state.selectedChapterId === 'chapter3' ? chapter3Data
                  : state.selectedChapterId === 'chapter2' ? chapter2Data 
                  : chapter1Data;

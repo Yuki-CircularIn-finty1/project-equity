@@ -1,0 +1,211 @@
+{
+  "scenes": [
+    {
+      "id": "scene_start",
+      "text": {
+        "ja": "【始動】\nまだまだ冷たい空気が肌をなでる中、梅の花がぽつぽつと咲き始めている。黒のダッフルコートに身を包んだ少女が古びた工場の前に佇む。",
+        "en": "[Start]\nWhile the air remained cold, plum blossoms were beginning to bloom here and there. A girl wrapped in a black duffle coat stood before an old factory."
+      },
+      "backgroundId": "bg_factory_ruins",
+      "nextSceneId": "scene_factory_action",
+      "se": "se_wind"
+    },
+    {
+      "id": "scene_factory_action",
+      "text": {
+        "ja": "工場の入り口は土砂で汚れており、それは車道にまで続いている。煙突からは黒い煙がもくもくと出ており、目には見えないもののこちらまで不快な空気が漂ってくるのを感じる。",
+        "en": "The factory entrance was soiled with dirt, trailing out to the roadway. Black smoke billowed from the smokestack, and though invisible, she could feel the unpleasant air drifting towards her."
+      },
+      "backgroundId": "bg_factory_ruins",
+      "nextSceneId": "scene_factory_destruction"
+    },
+    {
+      "id": "scene_factory_destruction",
+      "text": {
+        "ja": "少女は念じた。幸喜のことを思い出す。すると煙突の上に巨大な玉が浮遊する。少女は一呼吸置くと、身を翻す。ドンッと音がなり煙突がへし折れる。",
+        "en": "The girl focused her mind. She thought of Koki. A giant ball levitated above the smokestack. She took a breath and turned away. With a loud thud, the smokestack snapped."
+      },
+      "backgroundId": "bg_factory_ruins",
+      "nextSceneId": "scene_factory_leave",
+      "se": "se_explosion"
+    },
+    {
+      "id": "scene_factory_leave",
+      "text": {
+        "ja": "どこからか警報がなり始める。ぽつりぽつりと野次馬が集まりだすが、少女の姿はもうそこにはなかった。",
+        "en": "An alarm started ringing somewhere. Onlookers began to gather one by one, but the girl was no longer there."
+      },
+      "backgroundId": "bg_factory_ruins",
+      "nextSceneId": "scene_mission_check",
+      "se": "se_siren"
+    },
+    {
+      "id": "scene_mission_check",
+      "text": {
+        "ja": "遥の仕事はこれで10件目だった。いつものように匿名掲示板を覗き込むと、また数件の申し込みがあった。認知度が少しずつ上がっているような気がする。",
+        "en": "This was Haruka's tenth job. Checking the anonymous bulletin board as usual, she saw several more requests. It felt like recognition was slowly increasing."
+      },
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_phone_call"
+    },
+    {
+      "id": "scene_phone_call",
+      "text": {
+        "ja": "約束のノルマは達成した。今日は、Kからフェーズ3に移行する旨が発表されるはずだった... そのタイミングで電話がなる。Kだ。「これから事務所に来て下さい。大事な話があります。」",
+        "en": "The promised quota was met. Today, K was supposed to announce the transition to Phase 3... Just then, the phone rang. It was K. 'Please come to the office. I have something important to discuss.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_office_arrival",
+      "se": "se_phone_ring"
+    },
+    {
+      "id": "scene_office_arrival",
+      "text": {
+        "ja": "事務所につくと、くるみちゃん、てん、そしてKがいた。",
+        "en": "When she arrived at the office, Kurumi-chan, Ten, and K were there."
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "left": "kurumi_neutral",
+        "center": "k_serious",
+        "right": "ten_mohawk"
+      },
+      "nextSceneId": "scene_k_speech"
+    },
+    {
+      "id": "scene_k_speech",
+      "text": {
+        "ja": "「かねてから話していた通り、気候変動は人類が直面している最重要課題となっている... 我々が行うことは粛清、ただそれだけである。駒はそろった。改めて迎え入れよう。遥ちゃん。いよいよ君の出番が来たよ。」",
+        "en": "'As we've discussed, climate change is the most critical issue facing humanity... What we are doing is a purge, plain and simple. The pieces are all here. Let us welcome you again. Haruka-chan. It is finally your turn.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "k_party"
+      },
+      "nextSceneId": "scene_haruka_confusion"
+    },
+    {
+      "id": "scene_haruka_confusion",
+      "text": {
+        "ja": "IPCC、AR5... この人達は何を言っているのだろうか。遥に分かったのは唯一「粛清」という言葉だけだった。",
+        "en": "IPCC, AR5... What are these people talking about? The only word Haruka understood was 'purge'."
+      },
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_ten_explanation"
+    },
+    {
+      "id": "scene_ten_explanation",
+      "text": {
+        "ja": "「オイラから説明するよ。まず気候変動と地球温暖化の違いは分かるかな？」てんが切り出した。",
+        "en": "'I'll explain. First, do you know the difference between climate change and global warming?' Ten began."
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "ten_smile"
+      },
+      "nextSceneId": "scene_equality_equity"
+    },
+    {
+      "id": "scene_equality_equity",
+      "text": {
+        "ja": "「リンゴジャムを作るためにリンゴが10個必要だとする... オイラは4個、遥ちゃんは6個買うとコストが等分になる。これが衡平。つまりステークホルダーの事情を考慮した上でバランスを取るという意味だね。」",
+        "en": "'Suppose we need 10 apples for jam... If I buy 4 and you buy 6 to equalize the cost burden, that is equity. Ideally, it means balancing while considering the circumstances of the stakeholders.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "ten_hoodie"
+      },
+      "nextSceneId": "scene_responsibility"
+    },
+    {
+      "id": "scene_responsibility",
+      "text": {
+        "ja": "「共通だが差異ある責任... 全員が加害者であり、被害者であるという前提はあるものの、先進国がもたらした状況で発展途上国が被害を受けている現状である。」",
+        "en": "'Common but differentiated responsibilities... While everyone is both an offender and a victim, the reality is that developing countries suffer from the situation created by developed countries.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "ten_serious"
+      },
+      "nextSceneId": "scene_k_diamond"
+    },
+    {
+      "id": "scene_k_diamond",
+      "text": {
+        "ja": "Kが会話に入ってくる。「温室効果ガスで最も削減が難しいものがCO2だ。それを遥ちゃんは固体化することができる。」",
+        "en": "K joined the conversation. 'CO2 is the hardest greenhouse gas to reduce. But you, Haruka, can solidify it.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "k_neutral"
+      },
+      "nextSceneId": "scene_diamond_value"
+    },
+    {
+      "id": "scene_diamond_value",
+      "text": {
+        "ja": "「遥ちゃんの作った固体は資源価値のない廃棄物になるはずだ... 政府はこの廃棄物を処理するコストとCO2を削減するコストを天秤にかける。そうすると、削除するインセンティブが生まれる。一石二鳥なんだ。」",
+        "en": "'The solids you create should be worthless waste... Governments will weigh the cost of disposing of this waste against the cost of reducing CO2. That creates an incentive to reduce. It kills two birds with one stone.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "k_serious"
+      },
+      "nextSceneId": "scene_price_of_power"
+    },
+    {
+      "id": "scene_price_of_power",
+      "text": {
+        "ja": "「もちろん、現在の遥ちゃんの代償では足りない。見直す必要がある。」遥の代償は長期記憶の喪失であった。",
+        "en": "'Of course, your current price isn't enough, Haruka. We need to revise it.' Haruka's price was the loss of long-term memory."
+      },
+      "backgroundId": "bg_concrete_area",
+      "nextSceneId": "scene_memory_loss"
+    },
+    {
+      "id": "scene_memory_loss",
+      "text": {
+        "ja": "総理大臣の名前、自転車の乗り方、大好きだったお菓子の名前... もし、智也のことを忘れてしまえば、智也に対する恋心はもう永遠に失われてしまう。",
+        "en": "The Prime Minister's name, how to ride a bike, her favorite snacks... If she forgot Tomoya, her love for him would be lost forever."
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "haruka_despair"
+      },
+      "nextSceneId": "scene_hero"
+    },
+    {
+      "id": "scene_hero",
+      "text": {
+        "ja": "「君にとって大事な記憶が失われる。その代わり君は世界の救世主となる。誰も知ることはないが、名もなき英雄として歴史に刻まれるんだ。」",
+        "en": "'You will lose memories important to you. But in exchange, you will become the world's savior. A nameless hero etched in history, though no one will know.'"
+      },
+      "backgroundId": "bg_concrete_area",
+      "characters": {
+        "center": "k_party"
+      },
+      "nextSceneId": "scene_decision"
+    },
+    {
+      "id": "scene_decision",
+      "text": {
+        "ja": "救世主とか英雄とかそんなのは分からない。でも、私は何をすればいいの。",
+        "en": "I don't understand things like saviors or heroes. But what should I do?"
+      },
+      "backgroundId": "bg_garbage_dump",
+      "characters": {
+        "center": "haruka_neutral"
+      },
+      "nextSceneId": "scene_ending_5"
+    },
+    {
+      "id": "scene_ending_5",
+      "text": {
+        "ja": "第5章 始動 完",
+        "en": "Chapter 5: Start - End"
+      },
+      "backgroundId": "",
+      "type": "ending"
+    }
+  ]
+}

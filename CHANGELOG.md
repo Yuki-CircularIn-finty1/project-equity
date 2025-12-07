@@ -17,3 +17,4 @@ All notable changes to this project will be documented in this file.
 - Chapter 2 implementation
 - Chapter 3 implementation
 - Chapter 4 implementation
+- Chapter 5 implementation (Bilingual support included)

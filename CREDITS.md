@@ -79,11 +79,11 @@ When adding new assets (BGM, SE, or images), add an entry in the appropriate sec
 
 ### se_wind.mp3
 
-- **Source**: Original sound effect created for Project Equity
-- **Author**: Project Equity Team
-- **License**: MIT (same as project)
-- **Attribution**: N/A (Original work)
-- **Date Added**: 2025-11-30
+- **Source**: https://soundeffect-lab.info/sound/environment/
+- **Author**: Sound Effect Lab (効果音ラボ)
+- **License**: Free for commercial use (Sound Effect Lab license)
+- **Attribution**: 風が吹く3 from Sound Effect Lab
+- **Date Added**: 2025-12-07
 
 ### the-sound-of-a-little-girl-running-down-the-street.mp3
 
@@ -100,6 +100,30 @@ When adding new assets (BGM, SE, or images), add an entry in the appropriate sec
 - **License**: Pixabay Content License (Free for commercial use)
 - **Attribution**: Wine glass clink by freesound_community from Pixabay
 - **Date Added**: 2025-11-26
+
+### se_explosion.mp3
+
+- **Source**: https://on-jin.com/sound/sen.php?kate=%E7%88%86%E7%99%BA%E3%83%BB%E8%A1%9D%E6%92%83
+- **Author**: On-Jin ～音人～
+- **License**: Free for commercial use (On-Jin license)
+- **Attribution**: 爆破・破砕音01 from On-Jin ～音人～
+- **Date Added**: 2025-12-07
+
+### se_siren.mp3
+
+- **Source**: https://otologic.jp/free/se/warning01.html
+- **Author**: OtoLogic
+- **License**: Free for commercial use (OtoLogic license)
+- **Attribution**: Warning-Siren05-01(Fast-Mid) from OtoLogic
+- **Date Added**: 2025-12-07
+
+### se_phone_ring.mp3
+
+- **Source**: https://soundeffect-lab.info/sound/machine/
+- **Author**: Sound Effect Lab (効果音ラボ)
+- **License**: Free for commercial use (Sound Effect Lab license)
+- **Attribution**: 携帯電話の着信音1 from Sound Effect Lab
+- **Date Added**: 2025-12-07
 
 ---
 

@@ -6,22 +6,22 @@
  */
 
 // Background image IDs
-export type BackgroundId = 'bg_club_room' | 'bg_concrete_area' | 'bg_garbage_dump' | 'bg_haruka_room' | 'bg_kabukicho_street' | 'bg_park_day' | 'bg_pedestrian_bridge' | 'bg_shinjuku_station' | 'bg_title' | 'bg_tomoya_room' | 'bg_train_interior' | 'Welcome';
+export type BackgroundId = 'bg_club_room' | 'bg_concrete_area' | 'bg_factory_ruins' | 'bg_garbage_dump' | 'bg_haruka_room' | 'bg_kabukicho_street' | 'bg_park_day' | 'bg_pedestrian_bridge' | 'bg_shinjuku_station' | 'bg_title' | 'bg_tomoya_room' | 'bg_train_interior' | 'Welcome';
 
 // BGM audio IDs
 export type BgmId = 'ghost_doodle' | 'omoideguiter' | 'VSQSE_1152_water_07' | '牙';
 
 // Sound effect IDs
-export type SeId = 'heavy-wings-flapping-364607' | 'Hit-Slap03-2(Dry)' | 'se_ball_appear' | 'se_wind' | 'the-sound-of-a-little-girl-running-down-the-street' | 'wine-glass-clink-36036';
+export type SeId = 'heavy-wings-flapping-364607' | 'Hit-Slap03-2(Dry)' | 'se_ball_appear' | 'se_explosion' | 'se_phone_ring' | 'se_siren' | 'se_wind' | 'the-sound-of-a-little-girl-running-down-the-street' | 'wine-glass-clink-36036';
 
 // Asset counts for validation
 export const ASSET_COUNTS = {
-  backgrounds: 12,
+  backgrounds: 13,
   bgm: 4,
-  se: 6,
+  se: 9,
 } as const;
 
 // All asset IDs for runtime validation
-export const BACKGROUND_IDS = ['bg_club_room', 'bg_concrete_area', 'bg_garbage_dump', 'bg_haruka_room', 'bg_kabukicho_street', 'bg_park_day', 'bg_pedestrian_bridge', 'bg_shinjuku_station', 'bg_title', 'bg_tomoya_room', 'bg_train_interior', 'Welcome'] as const;
+export const BACKGROUND_IDS = ['bg_club_room', 'bg_concrete_area', 'bg_factory_ruins', 'bg_garbage_dump', 'bg_haruka_room', 'bg_kabukicho_street', 'bg_park_day', 'bg_pedestrian_bridge', 'bg_shinjuku_station', 'bg_title', 'bg_tomoya_room', 'bg_train_interior', 'Welcome'] as const;
 export const BGM_IDS = ['ghost_doodle', 'omoideguiter', 'VSQSE_1152_water_07', '牙'] as const;
-export const SE_IDS = ['heavy-wings-flapping-364607', 'Hit-Slap03-2(Dry)', 'se_ball_appear', 'se_wind', 'the-sound-of-a-little-girl-running-down-the-street', 'wine-glass-clink-36036'] as const;
+export const SE_IDS = ['heavy-wings-flapping-364607', 'Hit-Slap03-2(Dry)', 'se_ball_appear', 'se_explosion', 'se_phone_ring', 'se_siren', 'se_wind', 'the-sound-of-a-little-girl-running-down-the-street', 'wine-glass-clink-36036'] as const;

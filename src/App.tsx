@@ -103,12 +103,13 @@ const GameContent = () => {
                 const isSelected = selectedChapterId === chapterId;
                 
                 // Chapter configuration
-                const isPlayable = num <= 4; // Only Ch 1-4 are playable
+                  const isPlayable = num <= 5; // Only Ch 1-5 are playable
                 const getIcon = (n: number) => {
                   if (n === 1) return '📖';
                   if (n === 2) return '⚖️';
                   if (n === 3) return '🔮';
                   if (n === 4) return '🦉';
+                  if (n === 5) return '🏭';
                   return '🔒';
                 };
 
