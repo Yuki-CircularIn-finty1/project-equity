@@ -258,6 +258,7 @@ const CharacterLayerComponent: React.FC<CharacterLayerProps> = ({ characterImgId
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'flex-end',
+        paddingBottom: '10%',
         pointerEvents: 'none',
         zIndex: 10,
         overflow: 'hidden'
@@ -268,7 +269,7 @@ const CharacterLayerComponent: React.FC<CharacterLayerProps> = ({ characterImgId
             src={src}
             alt="Character"
             initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1.1 }}
             exit={{ opacity: 0, scale: 0.95 }}
             transition={{ duration: 0.3 }}
             style={{
