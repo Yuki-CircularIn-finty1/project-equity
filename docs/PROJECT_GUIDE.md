@@ -29,7 +29,7 @@ flowchart LR
 - 🎨 Dynamic character rendering with expressions
 - 🎵 Background music and sound effects integration
 - 💾 Local save/load system with multiple slots
-- 🌐 Bilingual support (Japanese/English)
+- 🌐 Full bilingual support (Japanese/English) - All chapters 1-5
 - ⚙️ Configurable text speed and volume
 
 ---
@@ -250,10 +250,11 @@ flowchart LR
 ```
 data/
 ├── chapters/
-│   ├── chapter1.json    # Chapter 1 scenes
-│   ├── chapter2.json    # Chapter 2 scenes
-│   ├── chapter3.json    # Chapter 3 scenes
-│   └── chapter4.json    # Chapter 4 scenes
+│   ├── chapter1.json    # Chapter 1 scenes (bilingual)
+│   ├── chapter2.json    # Chapter 2 scenes (bilingual)
+│   ├── chapter3.json    # Chapter 3 scenes (bilingual)
+│   ├── chapter4.json    # Chapter 4 scenes (bilingual)
+│   └── chapter5.json    # Chapter 5 scenes (bilingual)
 └── schema/              # JSON schema definitions
 ```
 

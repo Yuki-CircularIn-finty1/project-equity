@@ -2,7 +2,7 @@
 
 A browser-based visual novel (sound novel) game engine built with React, TypeScript, and Vite.
 
-> **Project Status**: Active Development | Chapters 1-4 Complete | Planning Chapters 5-8
+> **Project Status**: Active Development | Chapters 1-5 Complete (Bilingual) | Planning Chapters 6-8
 
 ## Features
 

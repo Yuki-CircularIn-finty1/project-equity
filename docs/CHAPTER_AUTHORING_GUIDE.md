@@ -98,7 +98,7 @@ Each chapter JSON follows this schema:
 }
 ```
 
-**Note**: For bilingual support, use the `{ ja: "...", en: "..." }` format. For Japanese-only chapters, a simple string is also supported: `"text": "テキスト"`.
+**Note**: All chapters now use bilingual format `{ ja: "...", en: "..." }`. This is the standard format for text fields. Simple strings are still supported for backward compatibility but should be avoided in new chapters.
 
 ### 2. Scene ID Naming Convention
 

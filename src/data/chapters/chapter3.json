@@ -2,14 +2,20 @@
   "scenes": [
     {
       "id": "scene_start",
-      "text": "第3章 覚醒",
+      "text": {
+        "ja": "第3章 覚醒",
+        "en": "Chapter 3: Awakening"
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_1",
       "bgm": "omoideguiter"
     },
     {
       "id": "scene_cooking_1",
-      "text": "チョコレートが溶ける温度までお湯を温める。沸騰したお湯を使ってはいけないとどこかのウェブサイトで読んだ。確か50度強の温度だ。",
+      "text": {
+        "ja": "チョコレートが溶ける温度までお湯を温める。沸騰したお湯を使ってはいけないとどこかのウェブサイトで読んだ。確か50度強の温度だ。",
+        "en": "Heat the water until it can melt chocolate. She'd read somewhere that boiling water shouldn't be used. It should be just over 50 degrees."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_2",
       "characters": {
@@ -18,7 +24,10 @@
     },
     {
       "id": "scene_cooking_2",
-      "text": "湯煎でチョコレートが少しずつ溶けてくる。遥の小玉はあれから出ていない。あれは白昼夢だったのではないかと思いを巡らす。",
+      "text": {
+        "ja": "湯煎でチョコレートが少しずつ溶けてくる。遥の小玉はあれから出ていない。あれは白昼夢だったのではないかと思いを巡らす。",
+        "en": "The chocolate melted bit by bit in the double boiler. The small balls hadn't appeared since then. She wondered if it had all been a daydream."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_3",
       "characters": {
@@ -27,7 +36,10 @@
     },
     {
       "id": "scene_cooking_3",
-      "text": "チョコレートがどろどろ溶けていく。遥の心は既に何かをされてしまったのか被害妄想が膨らんでいく。チョコレートの焦げた香りが漂う。どうやら熱を加えすぎたようだ。",
+      "text": {
+        "ja": "チョコレートがどろどろ溶けていく。遥の心は既に何かをされてしまったのか被害妄想が膨らんでいく。チョコレートの焦げた香りが漂う。どうやら熱を加えすぎたようだ。",
+        "en": "The chocolate melted into a gooey mess. Haruka's paranoia grew about whether something had been done to her mind. The smell of burnt chocolate wafted through the air. She must have applied too much heat."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_4",
       "characters": {
@@ -36,7 +48,10 @@
     },
     {
       "id": "scene_cooking_4",
-      "text": "ハート形の型に流し込んで形状を整えていく。明日は女子が男子に思いを伝えるであろうと、製菓会社が決めた日である。遥はこれまで姉が作るのを見てきただけで、バレンタインを意識するのは今回が初めてだ。",
+      "text": {
+        "ja": "ハート形の型に流し込んで形状を整えていく。明日は女子が男子に思いを伝えるであろうと、製菓会社が決めた日である。遥はこれまで姉が作るのを見てきただけで、バレンタインを意識するのは今回が初めてだ。",
+        "en": "She poured it into heart-shaped molds. Tomorrow was the day confectionery companies had decided girls should confess to boys. Haruka had only ever watched her sister make chocolates—this was her first time caring about Valentine's Day."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_5",
       "characters": {
@@ -45,7 +60,10 @@
     },
     {
       "id": "scene_cooking_5",
-      "text": "智也にチョコレートをあげたい、というわけではない。智也に会う口実が欲しいのだ。智也はセンター試験を終え、2次試験に向けて勉強しているはずだ。そんな彼を癒してあげたい。遥の母性がそう訴える。",
+      "text": {
+        "ja": "智也にチョコレートをあげたい、というわけではない。智也に会う口実が欲しいのだ。智也はセンター試験を終え、2次試験に向けて勉強しているはずだ。そんな彼を癒してあげたい。遥の母性がそう訴える。",
+        "en": "It wasn't that she wanted to give Tomoya chocolate. She wanted an excuse to see him. Tomoya had finished the Center Exam and should be studying for the secondary exams. She wanted to comfort him. Her maternal instinct urged her on."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_6",
       "characters": {
@@ -54,7 +72,10 @@
     },
     {
       "id": "scene_cooking_6",
-      "text": "智也と会う約束をしているわけでもない。智也が明日学校に来るかどうかさえ分からない。LINEがある。ただそれで聞けばいいだけなのに遥は聞くことができない。",
+      "text": {
+        "ja": "智也と会う約束をしているわけでもない。智也が明日学校に来るかどうかさえ分からない。LINEがある。ただそれで聞けばいいだけなのに遥は聞くことができない。",
+        "en": "She hadn't made plans to meet Tomoya. She didn't even know if he'd come to school tomorrow. There was LINE. She just needed to ask, yet she couldn't bring herself to."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_7",
       "characters": {
@@ -63,7 +84,10 @@
     },
     {
       "id": "scene_cooking_7",
-      "text": "固まってきたチョコレートを眺めながらも、遥の心は固まらない。運を天に任せる。もしも赤い糸があったならば、智也と会うことができるのではないか。",
+      "text": {
+        "ja": "固まってきたチョコレートを眺めながらも、遥の心は固まらない。運を天に任せる。もしも赤い糸があったならば、智也と会うことができるのではないか。",
+        "en": "Even as the chocolate solidified, Haruka's heart remained unsettled. She'd leave it to fate. If there was a red string of destiny, perhaps she could meet Tomoya."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_8",
       "characters": {
@@ -72,7 +96,10 @@
     },
     {
       "id": "scene_cooking_8",
-      "text": "遥はあり得る現実から目をそらし、他力本願な気持ちになる。突然、訪れたら彼はどんな反応をするか、そんな重い女であることを遥は自覚していなかった。",
+      "text": {
+        "ja": "遥はあり得る現実から目をそらし、他力本願な気持ちになる。突然、訪れたら彼はどんな反応をするか、そんな重い女であることを遥は自覚していなかった。",
+        "en": "Haruka averted her eyes from possible reality, becoming reliant on others. If she showed up suddenly, how would he react? She wasn't aware of how clingy she was being."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_cooking_9",
       "characters": {
@@ -81,7 +108,10 @@
     },
     {
       "id": "scene_cooking_9",
-      "text": "チョコレートを冷蔵庫で１時間冷やした後、遥は智也の家を目指した。ラッピングはデパートで買った小花柄のものにピンクのリボンをつけている。遥の好きなドラマで演出されてたものだ。黒のトートバッグにそれを入れると、遥は智也の家に向かいだした。",
+      "text": {
+        "ja": "チョコレートを冷蔵庫で１時間冷やした後、遥は智也の家を目指した。ラッピングはデパートで買った小花柄のものにピンクのリボンをつけている。遥の好きなドラマで演出されてたものだ。黒のトートバッグにそれを入れると、遥は智也の家に向かいだした。",
+        "en": "After chilling the chocolate in the refrigerator for an hour, Haruka headed for Tomoya's house. The wrapping was a small floral pattern from the department store with a pink ribbon—inspired by her favorite drama. Putting it in her black tote bag, she set off for Tomoya's house."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_bridge_1",
       "characters": {
@@ -90,7 +120,10 @@
     },
     {
       "id": "scene_bridge_1",
-      "text": "歩道橋を登り、通路を渡っていると突風が吹いた。トートバッグが風に煽られ、小花柄の包みが道路に落ちた。",
+      "text": {
+        "ja": "歩道橋を登り、通路を渡っていると突風が吹いた。トートバッグが風に煽られ、小花柄の包みが道路に落ちた。",
+        "en": "Climbing the pedestrian bridge and crossing the walkway, a sudden gust of wind blew. The tote bag was caught by the wind, and the floral-patterned package fell onto the road."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_bridge_2",
       "bgm": "牙",
@@ -100,7 +133,10 @@
     },
     {
       "id": "scene_bridge_2",
-      "text": "と、一台のトラックが通過した、小包の上を。ぐしゃり。遥の顔から血の気がひいた。遥と智也の唯一のつながり、それが壊れた。あっという間に。",
+      "text": {
+        "ja": "と、一台のトラックが通過した、小包の上を。ぐしゃり。遥の顔から血の気がひいた。遥と智也の唯一のつながり、それが壊れた。あっという間に。",
+        "en": "Then, a truck passed over the package. Crunch. The blood drained from Haruka's face. Her only connection to Tomoya—destroyed. In an instant."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_1",
       "characters": {
@@ -109,7 +145,10 @@
     },
     {
       "id": "scene_accident_1",
-      "text": "その瞬間、巨大な塊がトラックの後ろに現れた。後続車が寸でのところで迂回する。対向車が衝突した。あたりが騒然とする。",
+      "text": {
+        "ja": "その瞬間、巨大な塊がトラックの後ろに現れた。後続車が寸でのところで迂回する。対向車が衝突した。あたりが騒然とする。",
+        "en": "At that moment, a massive lump appeared behind the truck. The following car barely swerved to avoid it. An oncoming vehicle collided. The area erupted in chaos."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_2",
       "characters": {
@@ -118,7 +157,10 @@
     },
     {
       "id": "scene_accident_2",
-      "text": "遥はその場に座り込んだ。歩道橋の上から見下ろすと、事故の様子が良くわかる。右に迂回した軽自動車が対向車のトラックに潰されている。運転席がちょうど凹んでいる。運転手は無事だろうか。",
+      "text": {
+        "ja": "遥はその場に座り込んだ。歩道橋の上から見下ろすと、事故の様子が良くわかる。右に迂回した軽自動車が対向車のトラックに潰されている。運転席がちょうど凹んでいる。運転手は無事だろうか。",
+        "en": "Haruka collapsed on the spot. Looking down from the pedestrian bridge, the accident was clearly visible. The compact car that had swerved right was crushed by an oncoming truck. The driver's seat was dented. Was the driver okay?"
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_3",
       "characters": {
@@ -127,7 +169,10 @@
     },
     {
       "id": "scene_accident_3",
-      "text": "遥はいまおかれている状況を直視できない。遥の無意識が訴える。",
+      "text": {
+        "ja": "遥はいまおかれている状況を直視できない。遥の無意識が訴える。",
+        "en": "Haruka couldn't face the situation she was in. Her subconscious screamed."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_voice_1",
       "characters": {
@@ -136,7 +181,10 @@
     },
     {
       "id": "scene_accident_voice_1",
-      "text": "「ワタシノセイナノカ」",
+      "text": {
+        "ja": "「ワタシノセイナノカ」",
+        "en": "'Is this my fault?'"
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_voice_2",
       "characters": {
@@ -145,7 +193,10 @@
     },
     {
       "id": "scene_accident_voice_2",
-      "text": "「ワタシノノウリョクノセイナノカ」",
+      "text": {
+        "ja": "「ワタシノノウリョクノセイナノカ」",
+        "en": "'Is this because of my power?'"
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_flee_1",
       "characters": {
@@ -154,7 +205,10 @@
     },
     {
       "id": "scene_accident_flee_1",
-      "text": "逃げ出したい。ここから逃げ出したい。本来なら手元のスマートフォンに110や119を入れなければいけないのに思考が及ばない。次第に人が集まっていく。遠くからサイレンが聞こえる。",
+      "text": {
+        "ja": "逃げ出したい。ここから逃げ出したい。本来なら手元のスマートフォンに110や119を入れなければいけないのに思考が及ばない。次第に人が集まっていく。遠くからサイレンが聞こえる。",
+        "en": "She wanted to run. She wanted to escape from here. She should have been calling 110 or 119 on her phone, but she couldn't think. People gradually gathered. Sirens wailed in the distance."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_voice_3",
       "characters": {
@@ -163,7 +217,10 @@
     },
     {
       "id": "scene_accident_voice_3",
-      "text": "「ココカラタチサラナケレバ」",
+      "text": {
+        "ja": "「ココカラタチサラナケレバ」",
+        "en": "'I have to leave this place.'"
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_accident_flee_2",
       "characters": {
@@ -172,7 +229,10 @@
     },
     {
       "id": "scene_accident_flee_2",
-      "text": "本能が訴える。震える足を抱えながら、一歩一歩道を戻る。もはや智也の家に行く気はさらさらおきなかった。今の現実に耐えることができない。",
+      "text": {
+        "ja": "本能が訴える。震える足を抱えながら、一歩一歩道を戻る。もはや智也の家に行く気はさらさらおきなかった。今の現実に耐えることができない。",
+        "en": "Instinct took over. With trembling legs, she retraced her steps one by one. She had no desire to go to Tomoya's house anymore. She couldn't bear the reality before her."
+      },
       "backgroundId": "bg_pedestrian_bridge",
       "nextSceneId": "scene_home_panic",
       "characters": {
@@ -181,7 +241,10 @@
     },
     {
       "id": "scene_home_panic",
-      "text": "気づいたら遥は自室にいた。誰かに伝えたい。でも、誰に。遥の引き出しに収まってるくしゃくしゃの紙。Kの電話番号が書かれた紙。",
+      "text": {
+        "ja": "気づいたら遥は自室にいた。誰かに伝えたい。でも、誰に。遥の引き出しに収まってるくしゃくしゃの紙。Kの電話番号が書かれた紙。",
+        "en": "Before she knew it, Haruka was in her room. She wanted to tell someone. But who? In her drawer was a crumpled piece of paper. The paper with K's phone number."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_call_k_1",
       "characters": {
@@ -190,7 +253,10 @@
     },
     {
       "id": "scene_call_k_1",
-      "text": "遥はそれを意識せずにはいられなかった。手に取ると、遥は書かれた番号をスマートフォンに入力していた。ワンコールで相手が出る。",
+      "text": {
+        "ja": "遥はそれを意識せずにはいられなかった。手に取ると、遥は書かれた番号をスマートフォンに入力していた。ワンコールで相手が出る。",
+        "en": "She couldn't help but think about it. Taking it in hand, she dialed the number. It was answered after one ring."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_call_k_2",
       "characters": {
@@ -199,7 +265,10 @@
     },
     {
       "id": "scene_call_k_2",
-      "text": "「こんにちはHさん。Kです。その後いかがですか？」",
+      "text": {
+        "ja": "「こんにちはHさん。Kです。その後いかがですか？」",
+        "en": "'Hello, H-san. This is K. How have you been?'"
+      },
       "backgroundId": "bg_haruka_room",
       "characterId": "K",
       "nextSceneId": "scene_call_k_3",
@@ -209,7 +278,10 @@
     },
     {
       "id": "scene_call_k_3",
-      "text": "「あの……こんにちは。その……能力がおかしいんです。大きな塊が……突然……」",
+      "text": {
+        "ja": "「あの……こんにちは。その……能力がおかしいんです。大きな塊が……突然……」",
+        "en": "'Um... hello. I... my power is acting strangely. A large mass... suddenly...'"
+      },
       "backgroundId": "bg_haruka_room",
       "characterId": "HARUKA",
       "nextSceneId": "scene_call_k_4",
@@ -219,7 +291,10 @@
     },
     {
       "id": "scene_call_k_4",
-      "text": "「能力が暴走したんですね。いまどちらですか？」",
+      "text": {
+        "ja": "「能力が暴走したんですね。いまどちらですか？」",
+        "en": "'Your power went berserk, I see. Where are you now?'"
+      },
       "backgroundId": "bg_haruka_room",
       "characterId": "K",
       "nextSceneId": "scene_call_k_5",
@@ -229,7 +304,10 @@
     },
     {
       "id": "scene_call_k_5",
-      "text": "「自宅です。」",
+      "text": {
+        "ja": "「自宅です。」",
+        "en": "'At home.'"
+      },
       "backgroundId": "bg_haruka_room",
       "characterId": "HARUKA",
       "nextSceneId": "scene_call_k_6",
@@ -239,7 +317,10 @@
     },
     {
       "id": "scene_call_k_6",
-      "text": "「いまからこちらに来れますか？」",
+      "text": {
+        "ja": "「いまからこちらに来れますか？」",
+        "en": "'Can you come here now?'"
+      },
       "backgroundId": "bg_haruka_room",
       "characterId": "K",
       "nextSceneId": "scene_club_arrival_1",
@@ -249,7 +330,10 @@
     },
     {
       "id": "scene_club_arrival_1",
-      "text": "遥は頷くより他なかった。前回の朧げな記憶を頼りに隣駅まで行き、例の古びた建物にたどり着く。もうテナント募集の広告は取り外されている。ドアをノックする。",
+      "text": {
+        "ja": "遥は頷くより他なかった。前回の朧げな記憶を頼りに隣駅まで行き、例の古びた建物にたどり着く。もうテナント募集の広告は取り外されている。ドアをノックする。",
+        "en": "Haruka had no choice but to agree. Following her hazy memories from before, she went to the neighboring station and found the old building. The 'Tenants Wanted' sign was already gone. She knocked on the door."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_club_arrival_2",
       "bgm": "ghost_doodle",
@@ -259,7 +343,10 @@
     },
     {
       "id": "scene_club_arrival_2",
-      "text": "「失礼します。」",
+      "text": {
+        "ja": "「失礼します。」",
+        "en": "'Excuse me.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "HARUKA",
       "nextSceneId": "scene_club_arrival_3",
@@ -269,7 +356,10 @@
     },
     {
       "id": "scene_club_arrival_3",
-      "text": "ドアを開けると白髪のKのみが迎え入れてくれた。",
+      "text": {
+        "ja": "ドアを開けると白髪のKのみが迎え入れてくれた。",
+        "en": "When she opened the door, only white-haired K welcomed her."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_club_talk_1",
       "characters": {
@@ -278,7 +368,10 @@
     },
     {
       "id": "scene_club_talk_1",
-      "text": "「お待ちしていました。Hさん。ちょうどタイミングが良かったですね。我々も移動の時です。」",
+      "text": {
+        "ja": "「お待ちしていました。Hさん。ちょうどタイミングが良かったですね。我々も移動の時です。」",
+        "en": "'I've been expecting you, H-san. Good timing. We're also about to relocate.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_club_talk_2",
@@ -288,7 +381,10 @@
     },
     {
       "id": "scene_club_talk_2",
-      "text": "聞くと、この団体は根無し草。定期的に本拠地を移動しているらしい。安全面を考えての行動か。そもそも何が危険なのかは分からないが……。",
+      "text": {
+        "ja": "聞くと、この団体は根無し草。定期的に本拠地を移動しているらしい。安全面を考えての行動か。そもそも何が危険なのかは分からないが……。",
+        "en": "Apparently, this organization was rootless, regularly relocating their base. Was it for safety? Though she didn't know what the danger was..."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_club_talk_3",
       "characters": {
@@ -297,7 +393,10 @@
     },
     {
       "id": "scene_club_talk_3",
-      "text": "「いまからあなたに能力のコントロールの仕方をお伝えします。何らかの形で感情が高ぶるとき能力は発動します。つまり、ポイントは感情のコントロールなのです。」",
+      "text": {
+        "ja": "「いまからあなたに能力のコントロールの仕方をお伝えします。何らかの形で感情が高ぶるとき能力は発動します。つまり、ポイントは感情のコントロールなのです。」",
+        "en": "'I will now teach you how to control your power. When your emotions surge in any form, your power activates. So the key is emotional control.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_club_talk_4",
@@ -307,7 +406,10 @@
     },
     {
       "id": "scene_club_talk_4",
-      "text": "「例えるなら意図的に涙を流すような行為です。女優になったと思って、今まで一番嬉しかったこと、または辛かったことを思い出してください。」",
+      "text": {
+        "ja": "「例えるなら意図的に涙を流すような行為です。女優になったと思って、今まで一番嬉しかったこと、または辛かったことを思い出してください。」",
+        "en": "'Think of it like deliberately crying tears. Pretend you're an actress and recall your happiest or most painful memory.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_awakening_1",
@@ -317,7 +419,10 @@
     },
     {
       "id": "scene_awakening_1",
-      "text": "遥は瞬間的に先ほどの事故を思い出した。あの運転手は無事だったろうか。そう思うと、遥の目から自然に涙が零れた。",
+      "text": {
+        "ja": "遥は瞬間的に先ほどの事故を思い出した。あの運転手は無事だったろうか。そう思うと、遥の目から自然に涙が零れた。",
+        "en": "Haruka instantly recalled the earlier accident. Was that driver okay? At that thought, tears naturally fell from her eyes."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_awakening_2",
       "characters": {
@@ -326,7 +431,10 @@
     },
     {
       "id": "scene_awakening_2",
-      "text": "カツーン、カツーン。中くらいの玉が口から零れた。",
+      "text": {
+        "ja": "カツーン、カツーン。中くらいの玉が口から零れた。",
+        "en": "Clack, clack. Medium-sized balls fell from her mouth."
+      },
       "backgroundId": "bg_club_room",
       "se": "wine-glass-clink-36036",
       "nextSceneId": "scene_awakening_3",
@@ -336,7 +444,10 @@
     },
     {
       "id": "scene_awakening_3",
-      "text": "「ほう、君は才能があるね。」",
+      "text": {
+        "ja": "「ほう、君は才能があるね。」",
+        "en": "'Oh, you have talent.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_awakening_4",
@@ -346,7 +457,10 @@
     },
     {
       "id": "scene_awakening_4",
-      "text": "「大切なことは認識だ。その玉が自分の体の延長であると、頭ではなく身体で理解する必要がある。自転車に乗るようなものだ。学校の授業で習ったことがあるかい。」",
+      "text": {
+        "ja": "「大切なことは認識だ。その玉が自分の体の延長であると、頭ではなく身体で理解する必要がある。自転車に乗るようなものだ。学校の授業で習ったことがあるかい。」",
+        "en": "'The important thing is recognition. You need to understand with your body, not your head, that those balls are an extension of yourself. It's like riding a bike. Have you learned about this in school?'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_awakening_5",
@@ -356,7 +470,10 @@
     },
     {
       "id": "scene_awakening_5",
-      "text": "「習うより慣れろが大切だ。もっと感情を深く掘り起こすんだ。」",
+      "text": {
+        "ja": "「習うより慣れろが大切だ。もっと感情を深く掘り起こすんだ。」",
+        "en": "'Practice makes perfect. Dig deeper into your emotions.'"
+      },
       "backgroundId": "bg_club_room",
       "characterId": "K",
       "nextSceneId": "scene_awakening_6",
@@ -366,7 +483,10 @@
     },
     {
       "id": "scene_awakening_6",
-      "text": "また、ヒーリングミュージックが流れ出す。気持ちが安らいでいく。遥は遠い昔を思い出し始めてきた。",
+      "text": {
+        "ja": "また、ヒーリングミュージックが流れ出す。気持ちが安らいでいく。遥は遠い昔を思い出し始めてきた。",
+        "en": "Healing music began to play again. Her mind calmed. Haruka started to recall the distant past."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_end",
       "bgm": "omoideguiter",
@@ -376,7 +496,10 @@
     },
     {
       "id": "scene_end",
-      "text": "第3章 覚醒 完",
+      "text": {
+        "ja": "第3章 覚醒 完",
+        "en": "Chapter 3: Awakening - End"
+      },
       "backgroundId": "",
       "type": "ending"
     }

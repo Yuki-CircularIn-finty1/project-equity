@@ -2,92 +2,137 @@
   "scenes": [
     {
       "id": "scene_c2_start",
-      "text": "第2章 邂逅",
+      "text": {
+        "ja": "第2章 邂逅",
+        "en": "Chapter 2: Encounter"
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_search_1",
       "bgm": "牙"
     },
     {
       "id": "scene_c2_search_1",
-      "text": "口から小玉。そして智也とのデート、正確にはしていないが。その日からすぐにGoogleで検索し始めたが、それから既に１週間が経過した。",
+      "text": {
+        "ja": "口から小玉。そして智也とのデート、正確にはしていないが。その日からすぐにGoogleで検索し始めたが、それから既に１週間が経過した。",
+        "en": "Small balls from her mouth. And the date with Tomoya—well, technically it never happened. She started searching on Google right away, but a week had already passed."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_search_2"
     },
     {
       "id": "scene_c2_search_2",
-      "text": "国立図書館でも医学書を斜め読みしたが、そもそも専門知識のない遥にはうんともすんとも分からない。こんなこと誰にも親にも友達にも相談できない。いや、したくない。",
+      "text": {
+        "ja": "国立図書館でも医学書を斜め読みしたが、そもそも専門知識のない遥にはうんともすんとも分からない。こんなこと誰にも親にも友達にも相談できない。いや、したくない。",
+        "en": "She even skimmed through medical books at the National Library, but without any specialized knowledge, Haruka couldn't make heads or tails of it. She couldn't consult anyone about this—not her parents, not her friends. No, she didn't want to."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_search_3"
     },
     {
       "id": "scene_c2_search_3",
-      "text": "私自身が何か人でないものに変わりつつあるのではないかという、疎外感と恐怖感をないまぜにした混沌から遥は抜け出すことができない。そんな遥がとある掲示板に辿り着いた。",
+      "text": {
+        "ja": "私自身が何か人でないものに変わりつつあるのではないかという、疎外感と恐怖感をないまぜにした混沌から遥は抜け出すことができない。そんな遥がとある掲示板に辿り着いた。",
+        "en": "Haruka couldn't escape the chaos—a mix of alienation and fear that perhaps she was becoming something not quite human. That's when she stumbled upon a certain message board."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_bbs_1"
     },
     {
       "id": "scene_c2_bbs_1",
-      "text": "「超能力研究会」どこにでもあるようでどこでも関わったことのない世界について記載がある。貼られてあるリンク。神にも祈る気持ちでリンクをクリックした。",
+      "text": {
+        "ja": "「超能力研究会」どこにでもあるようでどこでも関わったことのない世界について記載がある。貼られてあるリンク。神にも祈る気持ちでリンクをクリックした。",
+        "en": "'Psychic Research Society'—a site about a world that seemed to exist everywhere yet she'd never encountered. She clicked the link, praying as if to the gods."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_bbs_2"
     },
     {
       "id": "scene_c2_bbs_2",
-      "text": "開いたページには数多くのリンクが貼られていた。念動力、サイコメトリー、テレパス、数多くの能力に関する名称のリンクが貼られている。ためしに念動力をクリックしてみる。",
+      "text": {
+        "ja": "開いたページには数多くのリンクが貼られていた。念動力、サイコメトリー、テレパス、数多くの能力に関する名称のリンクが貼られている。ためしに念動力をクリックしてみる。",
+        "en": "The page was filled with numerous links. Telekinesis, psychometry, telepathy—links to many different powers. She tried clicking on telekinesis."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_bbs_3"
     },
     {
       "id": "scene_c2_bbs_3",
-      "text": "「念動力」・・・物体を精神の力で動かす能力。一部ではポルターガイスト現象として知られている。思春期の女子がいる家庭でよく確認されているが、関連は不明。そもそもの経緯としては・・・。",
+      "text": {
+        "ja": "「念動力」・・・物体を精神の力で動かす能力。一部ではポルターガイスト現象として知られている。思春期の女子がいる家庭でよく確認されているが、関連は不明。そもそもの経緯としては・・・。",
+        "en": "'Telekinesis'... The ability to move objects with mental power. Some know it as poltergeist phenomenon. Often observed in homes with adolescent girls, though the connection is unclear. Its origins trace back to..."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_bbs_4"
     },
     {
       "id": "scene_c2_bbs_4",
-      "text": "文章は続く。ここに私の期待する答はあるのだろうか。サイトの末尾にcontactと記載がある。超能力研究会会長K。メールアドレスも併載されている。",
+      "text": {
+        "ja": "文章は続く。ここに私の期待する答はあるのだろうか。サイトの末尾にcontactと記載がある。超能力研究会会長K。メールアドレスも併載されている。",
+        "en": "The text continued. Was the answer she sought here? At the bottom of the site was a 'contact' section. Psychic Research Society President K. An email address was also listed."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_email_1"
     },
     {
       "id": "scene_c2_email_1",
-      "text": "藁にもすがる思いで遥はメールを書いた。自分の口から歪な小玉がでること、原因が不明であること、頼れる情報源がないこと。思いの丈をぶつけた。すぐに返信があった。",
+      "text": {
+        "ja": "藁にもすがる思いで遥はメールを書いた。自分の口から歪な小玉がでること、原因が不明であること、頼れる情報源がないこと。思いの丈をぶつけた。すぐに返信があった。",
+        "en": "Grasping at straws, Haruka wrote an email. About the misshapen balls coming from her mouth, the unknown cause, the lack of reliable information. She poured out her heart. A reply came immediately."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_email_2"
     },
     {
       "id": "scene_c2_email_2",
-      "text": "「あなたの孤独に押しつぶされる前に連絡を頂き、ありがとうございます。よろしければ一度直接お会いしてお話し伺えればと思います。都内在住K」。",
+      "text": {
+        "ja": "「あなたの孤独に押しつぶされる前に連絡を頂き、ありがとうございます。よろしければ一度直接お会いしてお話し伺えればと思います。都内在住K」。",
+        "en": "'Thank you for reaching out before being crushed by your loneliness. If you're willing, I'd like to meet in person to hear your story. K, residing in Tokyo.'"
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_email_3"
     },
     {
       "id": "scene_c2_email_3",
-      "text": "遥は新宿区に住んでいる。都内であればどこでも１時間ほどで行ける距離感だ。その旨を伝えると、「では１週間後に新宿駅で待ち合わせしましょう」と回答が来た。",
+      "text": {
+        "ja": "遥は新宿区に住んでいる。都内であればどこでも１時間ほどで行ける距離感だ。その旨を伝えると、「では１週間後に新宿駅で待ち合わせしましょう」と回答が来た。",
+        "en": "Haruka lived in Shinjuku. Anywhere in Tokyo was about an hour away. When she conveyed this, the reply came: 'Then let's meet at Shinjuku Station in one week.'"
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_email_4"
     },
     {
       "id": "scene_c2_email_4",
-      "text": "本当にこの男、いや女かもしれない、に会ってもよいものなのだろうか。溺れる者は藁をもつかむ。藁の頼りなさに今一度気づかされる今日であった。",
+      "text": {
+        "ja": "本当にこの男、いや女かもしれない、に会ってもよいものなのだろうか。溺れる者は藁をもつかむ。藁の頼りなさに今一度気づかされる今日であった。",
+        "en": "Was it really okay to meet this man—or woman? A drowning person will grasp at straws. Today she was reminded once again how unreliable straws really are."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_meet_1"
     },
     {
       "id": "scene_c2_meet_1",
-      "text": "期日はやってきた。目印は黒のニット帽に黒のコート、黒のサングラス。体形は中肉中背、どうやら同伴者がいるらしい。",
+      "text": {
+        "ja": "期日はやってきた。目印は黒のニット帽に黒のコート、黒のサングラス。体形は中肉中背、どうやら同伴者がいるらしい。",
+        "en": "The day arrived. The markers: black knit cap, black coat, black sunglasses. Medium build. Apparently, he had a companion."
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_2"
     },
     {
       "id": "scene_c2_meet_2",
-      "text": "新宿の東口を出るとまもなくして喫煙所があるらしい。そこでの待ち合わせだ。ほどなくしてある光景が目に飛び込んできた。",
+      "text": {
+        "ja": "新宿の東口を出るとまもなくして喫煙所があるらしい。そこでの待ち合わせだ。ほどなくしてある光景が目に飛び込んできた。",
+        "en": "Just past Shinjuku's east exit, there was apparently a smoking area. That was the meeting spot. Soon, a certain sight caught her eye."
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_3"
     },
     {
       "id": "scene_c2_meet_3",
-      "text": "レースの襟にピンク色と黒色のワンピース。細部には白色で刺繍が施されている。これは羊？いわゆるゴスロリという部類なのだろうか。",
+      "text": {
+        "ja": "レースの襟にピンク色と黒色のワンピース。細部には白色で刺繍が施されている。これは羊？いわゆるゴスロリという部類なのだろうか。",
+        "en": "A lace collar on a pink and black dress. White embroidery on the details. Is that... a sheep? Was this what they called Gothic Lolita?"
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_4",
       "characters": {
@@ -96,7 +141,10 @@
     },
     {
       "id": "scene_c2_meet_4",
-      "text": "無意識的に距離を取っていると、その男はいた。黒のサングラスに黒のニット帽、黒のコートに。。。無精ひげ。まさかこの男がKなのか、そして同伴者はゴスロリ女？",
+      "text": {
+        "ja": "無意識的に距離を取っていると、その男はいた。黒のサングラスに黒のニット帽、黒のコートに。。。無精ひげ。まさかこの男がKなのか、そして同伴者はゴスロリ女？",
+        "en": "As she unconsciously kept her distance, there he was. Black sunglasses, black knit cap, black coat... and stubble. Could this man be K? And his companion, the Gothic Lolita girl?"
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_5",
       "characters": {
@@ -106,7 +154,10 @@
     },
     {
       "id": "scene_c2_meet_5",
-      "text": "疑問が頭を過ぎる、とその瞬間、男に声をかけられた。",
+      "text": {
+        "ja": "疑問が頭を過ぎる、とその瞬間、男に声をかけられた。",
+        "en": "Questions raced through her mind when, at that moment, the man spoke to her."
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_6",
       "characters": {
@@ -116,7 +167,10 @@
     },
     {
       "id": "scene_c2_meet_6",
-      "text": "「あなたですね。こんにちは。Kと申します。」",
+      "text": {
+        "ja": "「あなたですね。こんにちは。Kと申します。」",
+        "en": "'It's you, isn't it? Hello. I'm K.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_7",
@@ -127,7 +181,10 @@
     },
     {
       "id": "scene_c2_meet_7",
-      "text": "黒の影が丁寧にお辞儀をした。",
+      "text": {
+        "ja": "黒の影が丁寧にお辞儀をした。",
+        "en": "The figure in black bowed politely."
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_8",
       "characters": {
@@ -137,7 +194,10 @@
     },
     {
       "id": "scene_c2_meet_8",
-      "text": "「あ、こんにちは。なんで私だと分かったんですか。」",
+      "text": {
+        "ja": "「あ、こんにちは。なんで私だと分かったんですか。」",
+        "en": "'Oh, hello. How did you know it was me?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_9",
@@ -149,7 +209,10 @@
     },
     {
       "id": "scene_c2_meet_9",
-      "text": "「分かりますよ。あなたは特殊な人間だ。こちら側の人間ですよ、ね？」",
+      "text": {
+        "ja": "「分かりますよ。あなたは特殊な人間だ。こちら側の人間ですよ、ね？」",
+        "en": "'I can tell. You're a special person. You're one of us, aren't you?'"
+      },
       "characterId": "K",
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_10",
@@ -160,7 +223,10 @@
     },
     {
       "id": "scene_c2_meet_10",
-      "text": "Kの眼力が強くなった、ような気がした。眼光とはこういうことを言うのだろうか。",
+      "text": {
+        "ja": "Kの眼力が強くなった、ような気がした。眼光とはこういうことを言うのだろうか。",
+        "en": "K's gaze intensified—or so it seemed. Was this what they meant by a piercing look?"
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_11",
       "characters": {
@@ -170,7 +236,10 @@
     },
     {
       "id": "scene_c2_meet_11",
-      "text": "「はい、はる。。。Hと申します。よろしくお願いします。」",
+      "text": {
+        "ja": "「はい、はる。。。Hと申します。よろしくお願いします。」",
+        "en": "'Yes, I'm Har—... I'm H. Nice to meet you.'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_meet_12",
@@ -182,7 +251,10 @@
     },
     {
       "id": "scene_c2_meet_12",
-      "text": "「では、行きましょうか」",
+      "text": {
+        "ja": "「では、行きましょうか」",
+        "en": "'Then, shall we go?'"
+      },
       "characterId": "K",
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_walk_1",
@@ -193,31 +265,46 @@
     },
     {
       "id": "scene_c2_walk_1",
-      "text": "「どこへですか」「ついてきてください、来ていただければ分かります」",
+      "text": {
+        "ja": "「どこへですか」「ついてきてください、来ていただければ分かります」",
+        "en": "'Where to?' 'Please follow me. You'll understand once you arrive.'"
+      },
       "backgroundId": "bg_shinjuku_station",
       "nextSceneId": "scene_c2_walk_2"
     },
     {
       "id": "scene_c2_walk_2",
-      "text": "Kは歩き出した。ゴスロリ女は口を開かない。遥は言われるままについていく、しかなかったと言っていい。",
+      "text": {
+        "ja": "Kは歩き出した。ゴスロリ女は口を開かない。遥は言われるままについていく、しかなかったと言っていい。",
+        "en": "K started walking. The Gothic Lolita girl didn't speak. Haruka had no choice but to follow as told."
+      },
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_walk_3"
     },
     {
       "id": "scene_c2_walk_3",
-      "text": "Kは歌舞伎町の方面に歩いていく。遥がそれについていき、何故かゴスロリ女がその後ろをついてくる形だ。見張られているのだろうか。",
+      "text": {
+        "ja": "Kは歌舞伎町の方面に歩いていく。遥がそれについていき、何故かゴスロリ女がその後ろをついてくる形だ。見張られているのだろうか。",
+        "en": "K walked toward Kabukicho. Haruka followed, with the Gothic Lolita girl somehow trailing behind. Was she being watched?"
+      },
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_walk_4"
     },
     {
       "id": "scene_c2_walk_4",
-      "text": "遥は歌舞伎町には詳しくない。大通りを３回曲がり小道に入る。喧噪が静寂に変わる。そのビルは一角に位置していた。空きビルなのかテナント募集中と書かれている。",
+      "text": {
+        "ja": "遥は歌舞伎町には詳しくない。大通りを３回曲がり小道に入る。喧噪が静寂に変わる。そのビルは一角に位置していた。空きビルなのかテナント募集中と書かれている。",
+        "en": "Haruka wasn't familiar with Kabukicho. They turned three times off the main street into an alley. The noise gave way to silence. The building stood on a corner, with a 'Tenants Wanted' sign—perhaps it was vacant."
+      },
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_building_1"
     },
     {
       "id": "scene_c2_building_1",
-      "text": "「どうぞ」",
+      "text": {
+        "ja": "「どうぞ」",
+        "en": "'Please, come in.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_building_2",
@@ -225,20 +312,29 @@
     },
     {
       "id": "scene_c2_building_2",
-      "text": "Kは短く促す。ゴスロリ女が遥を追い越してビルに走りこむ。不信感が高まる中、不思議とここなら得体のしれない何かが自分をなんとかしてくれるのではないかという怪しげな期待感も沸いてきた。",
+      "text": {
+        "ja": "Kは短く促す。ゴスロリ女が遥を追い越してビルに走りこむ。不信感が高まる中、不思議とここなら得体のしれない何かが自分をなんとかしてくれるのではないかという怪しげな期待感も沸いてきた。",
+        "en": "K prompted briefly. The Gothic Lolita girl ran past Haruka into the building. Despite her growing distrust, a strange hope welled up—perhaps something unknown here could help her."
+      },
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_room_1"
     },
     {
       "id": "scene_c2_room_1",
-      "text": "ビルの２階の一室。表記は超能力研究会とある。扉を開けると、ヒーリングミュージックが聞こえてきた。部屋の中には一脚のパイプ椅子、ただそれのみが置いてある。",
+      "text": {
+        "ja": "ビルの２階の一室。表記は超能力研究会とある。扉を開けると、ヒーリングミュージックが聞こえてきた。部屋の中には一脚のパイプ椅子、ただそれのみが置いてある。",
+        "en": "A room on the second floor. The sign read 'Psychic Research Society.' When she opened the door, healing music drifted out. Inside was only a single folding chair—nothing else."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_2",
       "bgm": "omoideguiter"
     },
     {
       "id": "scene_c2_room_2",
-      "text": "「は～い、座って座って～！」",
+      "text": {
+        "ja": "「は～い、座って座って～！」",
+        "en": "'Hey~! Sit down, sit down~!'"
+      },
       "characterId": "ゴスロリ女",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_3",
@@ -248,7 +344,10 @@
     },
     {
       "id": "scene_c2_room_3",
-      "text": "ゴスロリ女が突如口を開いた。",
+      "text": {
+        "ja": "ゴスロリ女が突如口を開いた。",
+        "en": "The Gothic Lolita girl suddenly spoke up."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_4",
       "characters": {
@@ -257,7 +356,10 @@
     },
     {
       "id": "scene_c2_room_4",
-      "text": "「あ～しんどかった。今日寒いよね～。ヒートテック着てるんだけど、カイロ持ってくれば良かった～あ～最悪～」",
+      "text": {
+        "ja": "「あ～しんどかった。今日寒いよね～。ヒートテック着てるんだけど、カイロ持ってくれば良かった～あ～最悪～」",
+        "en": "'Ahh~ that was exhausting. It's cold today, isn't it~? I'm wearing Heattech but I should've brought hand warmers~ ahh~ the worst~'"
+      },
       "characterId": "ゴスロリ女",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_5",
@@ -267,7 +369,10 @@
     },
     {
       "id": "scene_c2_room_5",
-      "text": "突然のことに遥は閉口した。",
+      "text": {
+        "ja": "突然のことに遥は閉口した。",
+        "en": "The sudden change left Haruka speechless."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_6",
       "characters": {
@@ -276,7 +381,10 @@
     },
     {
       "id": "scene_c2_room_6",
-      "text": "「くるみちゃんはこの部屋でしか喋れないんだ」",
+      "text": {
+        "ja": "「くるみちゃんはこの部屋でしか喋れないんだ」",
+        "en": "'Kurumi-chan can only speak in this room.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_7",
@@ -287,7 +395,10 @@
     },
     {
       "id": "scene_c2_room_7",
-      "text": "白髪の男、Kは説明する。ニット帽を脱いだKは、白髪が美しくなびく。",
+      "text": {
+        "ja": "白髪の男、Kは説明する。ニット帽を脱いだKは、白髪が美しくなびく。",
+        "en": "The white-haired man, K, explained. With his knit cap removed, his white hair flowed beautifully."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_8",
       "characters": {
@@ -297,7 +408,10 @@
     },
     {
       "id": "scene_c2_room_8",
-      "text": "「それが彼女が決めた『ルール』なんだ」",
+      "text": {
+        "ja": "「それが彼女が決めた『ルール』なんだ」",
+        "en": "'That's the 'rule' she has set for herself.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_9",
@@ -308,7 +422,10 @@
     },
     {
       "id": "scene_c2_room_9",
-      "text": "「私の能力は人にときめきを与える能力。疲れたサラリーマンにやる気を与えたり、恋愛に臆病な女の子を後押しする能力。その代償として、私はこの部屋でしか会話ができない。文字を書いたり、メールはできるけどね」",
+      "text": {
+        "ja": "「私の能力は人にときめきを与える能力。疲れたサラリーマンにやる気を与えたり、恋愛に臆病な女の子を後押しする能力。その代償として、私はこの部屋でしか会話ができない。文字を書いたり、メールはできるけどね」",
+        "en": "'My power gives people excitement. I can motivate tired office workers or encourage shy girls in love. As a price, I can only speak in this room. I can write and email, though.'"
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_10",
@@ -319,7 +436,10 @@
     },
     {
       "id": "scene_c2_room_10",
-      "text": "「代償？」",
+      "text": {
+        "ja": "「代償？」",
+        "en": "'Price?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_11",
@@ -331,7 +451,10 @@
     },
     {
       "id": "scene_c2_room_11",
-      "text": "「そう、能力をコントロールするには代償が必要になる。それがこの宇宙の法則なんだ」",
+      "text": {
+        "ja": "「そう、能力をコントロールするには代償が必要になる。それがこの宇宙の法則なんだ」",
+        "en": "'Yes, to control your power, you need a price. That's the law of this universe.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_12",
@@ -342,7 +465,10 @@
     },
     {
       "id": "scene_c2_room_12",
-      "text": "白髪のKが続ける。「宇宙の法則。。。」遥の耳には言葉が入ってくるが、頭には入ってこない。",
+      "text": {
+        "ja": "白髪のKが続ける。「宇宙の法則。。。」遥の耳には言葉が入ってくるが、頭には入ってこない。",
+        "en": "White-haired K continued. 'The law of the universe...' The words entered Haruka's ears but not her mind."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_room_13",
       "characters": {
@@ -352,7 +478,10 @@
     },
     {
       "id": "scene_c2_room_13",
-      "text": "「どうやら君は何も知らないようだね。能力をコントロールできていないようだ。こんな風にね。」",
+      "text": {
+        "ja": "「どうやら君は何も知らないようだね。能力をコントロールできていないようだ。こんな風にね。」",
+        "en": "'It seems you know nothing. You can't control your power yet. Like this.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_incident_1",
@@ -363,7 +492,10 @@
     },
     {
       "id": "scene_c2_incident_1",
-      "text": "というと白髪のKは遥の胸をいきなり掴んだ。咄嗟の反応が出る前にその現象は起きた。",
+      "text": {
+        "ja": "というと白髪のKは遥の胸をいきなり掴んだ。咄嗟の反応が出る前にその現象は起きた。",
+        "en": "With that, white-haired K suddenly grabbed Haruka's chest. Before she could react, the phenomenon occurred."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_incident_2",
       "characters": {
@@ -373,7 +505,10 @@
     },
     {
       "id": "scene_c2_incident_2",
-      "text": "カツカツカツーン。小玉だ。また例の歪な形をした小玉がでてきたのだ。",
+      "text": {
+        "ja": "カツカツカツーン。小玉だ。また例の歪な形をした小玉がでてきたのだ。",
+        "en": "Clack, clack, clack. The small balls. Those misshapen balls were coming out again."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_incident_3",
       "se": "wine-glass-clink-36036",
@@ -384,7 +519,10 @@
     },
     {
       "id": "scene_c2_incident_3",
-      "text": "「大切なのは平常心。」白髪のKは更に続ける。「このように」",
+      "text": {
+        "ja": "「大切なのは平常心。」白髪のKは更に続ける。「このように」",
+        "en": "'What's important is staying calm.' White-haired K continued. 'Like this.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_incident_4",
@@ -395,7 +533,10 @@
     },
     {
       "id": "scene_c2_incident_4",
-      "text": "音楽の音量が大きくなる。しかし煩くはない。どこか心地よい。胎動のような感覚を覚える。すると、小玉が落ちるのが止んだ。",
+      "text": {
+        "ja": "音楽の音量が大きくなる。しかし煩くはない。どこか心地よい。胎動のような感覚を覚える。すると、小玉が落ちるのが止んだ。",
+        "en": "The music grew louder. But it wasn't noisy. Somehow, it was comfortable. She felt something like fetal movement. Then, the balls stopped falling."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_1",
       "characters": {
@@ -405,7 +546,10 @@
     },
     {
       "id": "scene_c2_explain_1",
-      "text": "「僕の能力は人の才能を見抜く能力。Hさん、あなたの能力は二酸化炭素を固定化させる力のようだ」",
+      "text": {
+        "ja": "「僕の能力は人の才能を見抜く能力。Hさん、あなたの能力は二酸化炭素を固定化させる力のようだ」",
+        "en": "'My power is to perceive people's talents. H-san, your power appears to be the ability to solidify carbon dioxide.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_2",
@@ -416,7 +560,10 @@
     },
     {
       "id": "scene_c2_explain_2",
-      "text": "「なになに？理系なの？なんか地味な力だな～」",
+      "text": {
+        "ja": "「なになに？理系なの？なんか地味な力だな～」",
+        "en": "'What what? Is that like science stuff? That's such a plain power~'"
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_3",
@@ -427,7 +574,10 @@
     },
     {
       "id": "scene_c2_explain_3",
-      "text": "ゴスロリ女が絡んでくる。",
+      "text": {
+        "ja": "ゴスロリ女が絡んでくる。",
+        "en": "The Gothic Lolita girl chimed in."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_4",
       "characters": {
@@ -437,7 +587,10 @@
     },
     {
       "id": "scene_c2_explain_4",
-      "text": "「人の呼気に含まれる二酸化炭素は約1%。１日で排出する量は約1kg。あなたはそれを固定化する能力を持っている。」",
+      "text": {
+        "ja": "「人の呼気に含まれる二酸化炭素は約1%。１日で排出する量は約1kg。あなたはそれを固定化する能力を持っている。」",
+        "en": "'Human breath contains about 1% carbon dioxide. About 1kg is exhaled daily. You have the power to solidify it.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_5",
@@ -448,7 +601,10 @@
     },
     {
       "id": "scene_c2_explain_5",
-      "text": "「でも、代償がないとコントロールできないよ」ゴスロリ女は本来お喋りなようだ。",
+      "text": {
+        "ja": "「でも、代償がないとコントロールできないよ」ゴスロリ女は本来お喋りなようだ。",
+        "en": "'But you can't control it without a price.' The Gothic Lolita girl was apparently quite talkative."
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_1",
@@ -459,7 +615,10 @@
     },
     {
       "id": "scene_c2_ten_1",
-      "text": "「オイラみたいにね」",
+      "text": {
+        "ja": "「オイラみたいにね」",
+        "en": "'Just like me.'"
+      },
       "characterId": "？？？",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_2",
@@ -471,7 +630,10 @@
     },
     {
       "id": "scene_c2_ten_2",
-      "text": "どこからか声がする。気づくと部屋の隅に灰色のパーカーを着た小さなシルエットが浮かび上がる。フードを被っていて男か女かは分からない。",
+      "text": {
+        "ja": "どこからか声がする。気づくと部屋の隅に灰色のパーカーを着た小さなシルエットが浮かび上がる。フードを被っていて男か女かは分からない。",
+        "en": "A voice came from somewhere. She noticed a small silhouette in a gray hoodie appearing in the corner. With the hood up, she couldn't tell if it was male or female."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_3",
       "characters": {
@@ -482,7 +644,10 @@
     },
     {
       "id": "scene_c2_ten_3",
-      "text": "「彼の能力は人の心を安定化させる能力。代償は。。。」「透明になることだよ」",
+      "text": {
+        "ja": "「彼の能力は人の心を安定化させる能力。代償は。。。」「透明になることだよ」",
+        "en": "'His power stabilizes people's minds. The price is...' 'Becoming invisible.'"
+      },
       "characterId": "K & ？？？",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_4",
@@ -497,7 +662,10 @@
     },
     {
       "id": "scene_c2_ten_4",
-      "text": "灰色のパーカーが消える。と同時に今度は川のせせらぎのような環境音が流れ出す。",
+      "text": {
+        "ja": "灰色のパーカーが消える。と同時に今度は川のせせらぎのような環境音が流れ出す。",
+        "en": "The gray hoodie vanished. At the same time, ambient sounds like a babbling brook began to play."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_5",
       "bgm": "VSQSE_1152_water_07",
@@ -512,7 +680,10 @@
     },
     {
       "id": "scene_c2_ten_5",
-      "text": "「ってね」再び灰色のパーカーが現れる。音が止む。服まで消えるのはどういう原理なのか。",
+      "text": {
+        "ja": "「ってね」再び灰色のパーカーが現れる。音が止む。服まで消えるのはどういう原理なのか。",
+        "en": "'Just kidding.' The gray hoodie reappeared. The sound stopped. How did even clothes disappear?"
+      },
       "characterId": "？？？",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_6",
@@ -525,7 +696,10 @@
     },
     {
       "id": "scene_c2_ten_6",
-      "text": "「正確には他者に存在を認識されないってことさ、あ、オイラてんって言うんだよろしくな。存在を認識されないから精神科医にはなれないんだよね笑」",
+      "text": {
+        "ja": "「正確には他者に存在を認識されないってことさ、あ、オイラてんって言うんだよろしくな。存在を認識されないから精神科医にはなれないんだよね笑」",
+        "en": "'To be precise, others can't perceive my existence. Oh, I'm Ten, nice to meet ya. Since I can't be perceived, I couldn't become a psychiatrist, haha.'"
+      },
       "characterId": "てん",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ten_7",
@@ -537,7 +711,10 @@
     },
     {
       "id": "scene_c2_ten_7",
-      "text": "「あたしは占い師やってるよ。占えないんだけど、後押しができるからね笑」",
+      "text": {
+        "ja": "「あたしは占い師やってるよ。占えないんだけど、後押しができるからね笑」",
+        "en": "'I'm a fortune teller. I can't actually tell fortunes, but I can give encouragement, haha.'"
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_6",
@@ -547,10 +724,12 @@
         "center": "ten_smile"
       }
     },
-
     {
       "id": "scene_c2_explain_6",
-      "text": "ここの人間は皆良く喋る。",
+      "text": {
+        "ja": "ここの人間は皆良く喋る。",
+        "en": "Everyone here sure talked a lot."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_7",
       "characters": {
@@ -561,7 +740,10 @@
     },
     {
       "id": "scene_c2_explain_7",
-      "text": "「能力の暴走は感情の起伏によって生じる。てんの能力はHちゃんのような扉を開けたばかりの人には必要な力なんだ」",
+      "text": {
+        "ja": "「能力の暴走は感情の起伏によって生じる。てんの能力はHちゃんのような扉を開けたばかりの人には必要な力なんだ」",
+        "en": "'Power rampages happen due to emotional fluctuations. Ten's power is essential for people like H-chan who just opened the door.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_explain_8",
@@ -573,7 +755,10 @@
     },
     {
       "id": "scene_c2_explain_8",
-      "text": "「状況は理解できたかな」",
+      "text": {
+        "ja": "「状況は理解できたかな」",
+        "en": "'Do you understand the situation now?'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_slap_1",
@@ -585,7 +770,10 @@
     },
     {
       "id": "scene_c2_slap_1",
-      "text": "遥は考える。「ちょっといいですか」",
+      "text": {
+        "ja": "遥は考える。「ちょっといいですか」",
+        "en": "Haruka thought it over. 'May I have a moment?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_slap_2",
@@ -597,7 +785,10 @@
     },
     {
       "id": "scene_c2_slap_2",
-      "text": "パアン。遥はKを平手打ちした。",
+      "text": {
+        "ja": "パアン。遥はKを平手打ちした。",
+        "en": "SLAP. Haruka slapped K across the face."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_slap_3",
       "se": "Hit-Slap03-2(Dry)",
@@ -609,7 +800,10 @@
     },
     {
       "id": "scene_c2_slap_3",
-      "text": "「おっぱい触ってんじゃねぇよ」",
+      "text": {
+        "ja": "「おっぱい触ってんじゃねぇよ」",
+        "en": "'Don't touch my chest!'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_slap_4",
@@ -621,7 +815,10 @@
     },
     {
       "id": "scene_c2_slap_4",
-      "text": "「ひゃっはっはっ」ゴスロリが下品に笑う。",
+      "text": {
+        "ja": "「ひゃっはっはっ」ゴスロリが下品に笑う。",
+        "en": "'Ahahahaha!' The Gothic Lolita laughed crudely."
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_1",
@@ -633,7 +830,10 @@
     },
     {
       "id": "scene_c2_dialogue_1",
-      "text": "「え～と、私は病気じゃないの？」",
+      "text": {
+        "ja": "「え～と、私は病気じゃないの？」",
+        "en": "'Um... so I'm not sick?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_2",
@@ -645,7 +845,10 @@
     },
     {
       "id": "scene_c2_dialogue_2",
-      "text": "「ギフト。君の才能さ」白髪のＫがフォローする。",
+      "text": {
+        "ja": "「ギフト。君の才能さ」白髪のＫがフォローする。",
+        "en": "'A gift. Your talent.' White-haired K recovered."
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_3",
@@ -657,7 +860,10 @@
     },
     {
       "id": "scene_c2_dialogue_3",
-      "text": "「代償はどうやって決めるの？」",
+      "text": {
+        "ja": "「代償はどうやって決めるの？」",
+        "en": "'How do you decide the price?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_4",
@@ -669,7 +875,10 @@
     },
     {
       "id": "scene_c2_dialogue_4",
-      "text": "「代償は自由に決められるけど、程度によってコントロールの度合が変わってくる」",
+      "text": {
+        "ja": "「代償は自由に決められるけど、程度によってコントロールの度合が変わってくる」",
+        "en": "'You can freely decide the price, but the degree of control changes based on its severity.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_5",
@@ -681,7 +890,10 @@
     },
     {
       "id": "scene_c2_dialogue_5",
-      "text": "「結局自由なの？制限されるの？」",
+      "text": {
+        "ja": "「結局自由なの？制限されるの？」",
+        "en": "'So is it free? Or restricted?'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_6",
@@ -693,7 +905,10 @@
     },
     {
       "id": "scene_c2_dialogue_6",
-      "text": "「君の選択次第さ。どれくらいの能力を発揮したいかによる」",
+      "text": {
+        "ja": "「君の選択次第さ。どれくらいの能力を発揮したいかによる」",
+        "en": "'It's your choice. It depends on how much power you want to exert.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_7",
@@ -705,7 +920,10 @@
     },
     {
       "id": "scene_c2_dialogue_7",
-      "text": "「そんなこと言われても分からないよ。。。」",
+      "text": {
+        "ja": "「そんなこと言われても分からないよ。。。」",
+        "en": "'Even if you say that, I don't understand...'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_8",
@@ -717,7 +935,10 @@
     },
     {
       "id": "scene_c2_dialogue_8",
-      "text": "「そこであたしの出番ってわけ」ゴスロリが口を出す。",
+      "text": {
+        "ja": "「そこであたしの出番ってわけ」ゴスロリが口を出す。",
+        "en": "'That's where I come in.' The Gothic Lolita interjected."
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_dialogue_9",
@@ -729,7 +950,10 @@
     },
     {
       "id": "scene_c2_dialogue_9",
-      "text": "「私のときめきを与える力であなたは能力に対して前向きになれる。準備はいい？」",
+      "text": {
+        "ja": "「私のときめきを与える力であなたは能力に対して前向きになれる。準備はいい？」",
+        "en": "'With my power to give excitement, you'll become positive about your abilities. Ready?'"
+      },
       "characterId": "くるみ",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_climax_1",
@@ -741,7 +965,10 @@
     },
     {
       "id": "scene_c2_climax_1",
-      "text": "「やめて！」遥は叫ぶ。",
+      "text": {
+        "ja": "「やめて！」遥は叫ぶ。",
+        "en": "'Stop!' Haruka shouted."
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_climax_2",
@@ -753,7 +980,10 @@
     },
     {
       "id": "scene_c2_climax_2",
-      "text": "「人の心を勝手に安定化したり、ときめかせたり、何だと思ってるの？もう私に干渉しないで。」",
+      "text": {
+        "ja": "「人の心を勝手に安定化したり、ときめかせたり、何だと思ってるの？もう私に干渉しないで。」",
+        "en": "'Stabilizing people's minds, making them excited without permission—what do you think you're doing? Stop interfering with me.'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_climax_3",
@@ -765,7 +995,10 @@
     },
     {
       "id": "scene_c2_climax_3",
-      "text": "「君は答を求めにきたのだろう。私たちは知ってる。君の能力は大きな可能性を。。。」",
+      "text": {
+        "ja": "「君は答を求めにきたのだろう。私たちは知ってる。君の能力は大きな可能性を。。。」",
+        "en": "'You came seeking answers, didn't you? We know. Your power has great potential...'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_climax_4",
@@ -777,7 +1010,10 @@
     },
     {
       "id": "scene_c2_climax_4",
-      "text": "「なに。やめて。重い。私は普通でいたいの。こんな能力いらない！」",
+      "text": {
+        "ja": "「なに。やめて。重い。私は普通でいたいの。こんな能力いらない！」",
+        "en": "'What? Stop. It's too heavy. I just want to be normal. I don't need this power!'"
+      },
       "characterId": "遥",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_climax_5",
@@ -789,7 +1025,10 @@
     },
     {
       "id": "scene_c2_climax_5",
-      "text": "カツーン、カツーン。再び遥の口から小玉が零れる。零れる。零れる。",
+      "text": {
+        "ja": "カツーン、カツーン。再び遥の口から小玉が零れる。零れる。零れる。",
+        "en": "Clack, clack. The small balls spilled from Haruka's mouth again. And again. And again."
+      },
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ending_1",
       "se": "wine-glass-clink-36036",
@@ -803,7 +1042,10 @@
     },
     {
       "id": "scene_c2_ending_1",
-      "text": "「君は能力を制御できていない。これは僕の電話番号だ。いつでも連絡してくるといい。」",
+      "text": {
+        "ja": "「君は能力を制御できていない。これは僕の電話番号だ。いつでも連絡してくるといい。」",
+        "en": "'You can't control your power yet. Here's my phone number. Contact me anytime.'"
+      },
       "characterId": "K",
       "backgroundId": "bg_club_room",
       "nextSceneId": "scene_c2_ending_2",
@@ -814,19 +1056,28 @@
     },
     {
       "id": "scene_c2_ending_2",
-      "text": "遥はそれを受け取ると逃げるように部屋を出ていった。紙はくしゃくしゃにポケットにしまい込んだ。",
+      "text": {
+        "ja": "遥はそれを受け取ると逃げるように部屋を出ていった。紙はくしゃくしゃにポケットにしまい込んだ。",
+        "en": "Haruka took it and fled the room. She crumpled the paper into her pocket."
+      },
       "backgroundId": "bg_kabukicho_street",
       "nextSceneId": "scene_c2_ending_3"
     },
     {
       "id": "scene_c2_ending_3",
-      "text": "遥は泣いた。涙がぽろぽろ。カツーン、カツーン。小玉は落ち続ける。それは遥が自室に籠るまで続いた。",
+      "text": {
+        "ja": "遥は泣いた。涙がぽろぽろ。カツーン、カツーン。小玉は落ち続ける。それは遥が自室に籠るまで続いた。",
+        "en": "Haruka cried. Tears fell one by one. Clack, clack. The small balls kept falling. It continued until she shut herself in her room."
+      },
       "backgroundId": "bg_haruka_room",
       "nextSceneId": "scene_c2_end"
     },
     {
       "id": "scene_c2_end",
-      "text": "第2章 邂逅 完",
+      "text": {
+        "ja": "第2章 邂逅 完",
+        "en": "Chapter 2: Encounter - End"
+      },
       "backgroundId": "",
       "type": "ending"
     }

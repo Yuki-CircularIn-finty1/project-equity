@@ -2,14 +2,20 @@
   "scenes": [
     {
       "id": "scene_chapter4_start",
-      "text": "第4章 回顧",
+      "text": {
+        "ja": "第4章 回顧",
+        "en": "Chapter 4: Retrospection"
+      },
       "backgroundId": "bg_park_day",
       "nextSceneId": "scene_park_flashback_1",
       "bgm": "omoideguiter"
     },
     {
       "id": "scene_park_flashback_1",
-      "text": "たったったっ。少女が公園を走っている。ブランコも滑り台もない質素な公園である。",
+      "text": {
+        "ja": "たったったっ。少女が公園を走っている。ブランコも滑り台もない質素な公園である。",
+        "en": "Tap, tap, tap. A girl was running through a park. It was a simple park with no swings or slides."
+      },
       "backgroundId": "bg_park_day",
       "nextSceneId": "scene_park_flashback_2",
       "se": "se_run",
@@ -18,14 +24,20 @@
     },
     {
       "id": "scene_park_flashback_2",
-      "text": "少年達がその後を追いかける。少女は凧をあげていた。ふわりふわり。風に乗って気持ちよさそうに凧が泳ぐ。",
+      "text": {
+        "ja": "少年達がその後を追いかける。少女は凧をあげていた。ふわりふわり。風に乗って気持ちよさそうに凧が泳ぐ。",
+        "en": "Boys chased after her. The girl was flying a kite. Gently, gently. The kite swam pleasantly on the wind."
+      },
       "backgroundId": "bg_park_day",
       "nextSceneId": "scene_park_flashback_3",
       "se": "the-sound-of-a-little-girl-running-down-the-street"
     },
     {
       "id": "scene_park_flashback_3",
-      "text": "そんな光景を遠くから見ている別の少女。遥５才の時である。姉の光はいつも集団の中心であったが、遥はそこに混じることなく自分の時間を過ごしていた。",
+      "text": {
+        "ja": "そんな光景を遠くから見ている別の少女。遥５才の時である。姉の光はいつも集団の中心であったが、遥はそこに混じることなく自分の時間を過ごしていた。",
+        "en": "Another girl watched this scene from afar. Haruka was five years old. Her sister Hikari was always at the center of the group, but Haruka spent her time apart."
+      },
       "backgroundId": "bg_park_day",
       "characters": {
         "center": "haruka_child"
@@ -34,33 +46,48 @@
     },
     {
       "id": "scene_park_flashback_4",
-      "text": "姉の光は活動的で社交性があり、運動も得意で頭も良かった。なにより遥が嫉妬、まだそう呼ぶことを知らない年齢であったが、感じたのは光の類まれなる容姿であった。",
+      "text": {
+        "ja": "姉の光は活動的で社交性があり、運動も得意で頭も良かった。なにより遥が嫉妬、まだそう呼ぶことを知らない年齢であったが、感じたのは光の類まれなる容姿であった。",
+        "en": "Her sister Hikari was active, sociable, athletic, and smart. What Haruka felt most—though she was too young to call it jealousy—was envy of Hikari's exceptional beauty."
+      },
       "backgroundId": "bg_park_day",
       "nextSceneId": "scene_park_flashback_5"
     },
     {
       "id": "scene_park_flashback_5",
-      "text": "遥はその後、姉の影を追いながら幼少期を過ごす。それはどこか抑圧された屈折した精神を育んだ。",
+      "text": {
+        "ja": "遥はその後、姉の影を追いながら幼少期を過ごす。それはどこか抑圧された屈折した精神を育んだ。",
+        "en": "Haruka spent her childhood chasing her sister's shadow. This fostered a somewhat repressed and distorted spirit."
+      },
       "backgroundId": "bg_park_day",
       "nextSceneId": "scene_training_1"
     },
     {
       "id": "scene_training_1",
-      "text": "遥がふと気づくと中くらいの玉が１つ増えていた。",
+      "text": {
+        "ja": "遥がふと気づくと中くらいの玉が１つ増えていた。",
+        "en": "When Haruka came to, she noticed one more medium-sized ball had appeared."
+      },
       "backgroundId": "bg_concrete_area",
       "nextSceneId": "scene_training_2",
       "se": "se_ball_appear"
     },
     {
       "id": "scene_training_2",
-      "text": "「感情の起伏が能力を発動させるキーだ。ここでしばらく訓練するといい。彼が手伝ってくれるだろう。」",
+      "text": {
+        "ja": "「感情の起伏が能力を発動させるキーだ。ここでしばらく訓練するといい。彼が手伝ってくれるだろう。」",
+        "en": "'Emotional fluctuation is the key to activating your power. You should train here for a while. He'll help you.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "K",
       "nextSceneId": "scene_training_3"
     },
     {
       "id": "scene_training_3",
-      "text": "てんがペコリと挨拶する。今日はフードを外している。ピンク色のモヒカンヘア。柔らかい物腰の彼だが、過激な髪型だ。",
+      "text": {
+        "ja": "てんがペコリと挨拶する。今日はフードを外している。ピンク色のモヒカンヘア。柔らかい物腰の彼だが、過激な髪型だ。",
+        "en": "Ten bowed in greeting. Today, he had his hood down. Pink mohawk hair. Despite his gentle demeanor, his hairstyle was wild."
+      },
       "backgroundId": "bg_concrete_area",
       "characters": {
         "center": "ten_mohawk"
@@ -69,73 +96,106 @@
     },
     {
       "id": "scene_training_4",
-      "text": "「オイラの能力でHさんの心を子供時代に戻した。過去の回顧はどうだったかい。楽しめたかい。」",
+      "text": {
+        "ja": "「オイラの能力でHさんの心を子供時代に戻した。過去の回顧はどうだったかい。楽しめたかい。」",
+        "en": "'I used my power to take H-san's mind back to childhood. How was the trip down memory lane? Did you enjoy it?'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "TEN",
       "nextSceneId": "scene_training_5"
     },
     {
       "id": "scene_training_5",
-      "text": "遥の目からは一筋の涙が流れた。なぜ泣いているかは分からない。「私に干渉しないでって言ったでしょ」",
+      "text": {
+        "ja": "遥の目からは一筋の涙が流れた。なぜ泣いているかは分からない。「私に干渉しないでって言ったでしょ」",
+        "en": "A single tear ran down Haruka's face. She didn't know why she was crying. 'I told you not to interfere with me.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "HARUKA",
       "nextSceneId": "scene_training_6"
     },
     {
       "id": "scene_training_6",
-      "text": "「君の心には閉ざされたドアがいくつもある。それを1つずつ開けていく。そのうえで自分自身を見つめることが能力の開花につながる。」",
+      "text": {
+        "ja": "「君の心には閉ざされたドアがいくつもある。それを1つずつ開けていく。そのうえで自分自身を見つめることが能力の開花につながる。」",
+        "en": "'Your mind has many closed doors. We open them one by one. Looking at yourself through this process leads to your power blossoming.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "TEN",
       "nextSceneId": "scene_owl_flashback_1"
     },
     {
       "id": "scene_owl_flashback_1",
-      "text": "閉ざされた扉。それは遥のこれまでの人生の足跡、知らないふりをしてきた過去との対面を意味する。",
+      "text": {
+        "ja": "閉ざされた扉。それは遥のこれまでの人生の足跡、知らないふりをしてきた過去との対面を意味する。",
+        "en": "Closed doors. They meant facing the footprints of Haruka's life—the past she had pretended not to know."
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_owl_flashback_2",
       "bgm": "ghost_doodle"
     },
     {
       "id": "scene_owl_flashback_2",
-      "text": "遥の心の最深部。最も重い扉の前に遥とてんが佇む。扉の前に１つの羽が落ちている。「この扉は……ダメ、開けられない」",
+      "text": {
+        "ja": "遥の心の最深部。最も重い扉の前に遥とてんが佇む。扉の前に１つの羽が落ちている。「この扉は……ダメ、開けられない」",
+        "en": "The deepest part of Haruka's mind. Haruka and Ten stood before the heaviest door. A single feather lay before the door. 'This door... no, I can't open it.'"
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_owl_flashback_3"
     },
     {
       "id": "scene_owl_flashback_3",
-      "text": "「Hさん、君の足に嵌められている重い枷をほどくにはこの扉を開ける必要がある。何があったかオイラに聞かせてくれる？」",
+      "text": {
+        "ja": "「Hさん、君の足に嵌められている重い枷をほどくにはこの扉を開ける必要がある。何があったかオイラに聞かせてくれる？」",
+        "en": "'H-san, to remove the heavy shackles on your legs, you need to open this door. Can you tell me what happened?'"
+      },
       "backgroundId": "bg_garbage_dump",
       "characterId": "TEN",
       "nextSceneId": "scene_owl_flashback_4"
     },
     {
       "id": "scene_owl_flashback_4",
-      "text": "ぱさぱさぱさ。漆黒の闇に羽ばたく音が響き渡る。その猛禽類は闇夜に溶け込み、その光る目で遠くを見据える。",
+      "text": {
+        "ja": "ぱさぱさぱさ。漆黒の闇に羽ばたく音が響き渡る。その猛禽類は闇夜に溶け込み、その光る目で遠くを見据える。",
+        "en": "Flutter, flutter, flutter. The sound of wings echoed in the pitch darkness. The raptor melted into the night, its glowing eyes gazing into the distance."
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_owl_flashback_5",
       "se": "heavy-wings-flapping-364607"
     },
     {
       "id": "scene_owl_flashback_5",
-      "text": "遥は目が覚めた。目から涙が零れ落ちる。７年前の喪失を思い出したからだ。その白色の死体は血に染まり、住宅のゴミ収集場に生ごみと共に放置されていた。",
+      "text": {
+        "ja": "遥は目が覚めた。目から涙が零れ落ちる。７年前の喪失を思い出したからだ。その白色の死体は血に染まり、住宅のゴミ収集場に生ごみと共に放置されていた。",
+        "en": "Haruka woke up. Tears fell from her eyes. She remembered the loss from seven years ago. The white body, stained with blood, had been left at the neighborhood garbage collection area among food waste."
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_owl_flashback_6"
     },
     {
       "id": "scene_owl_flashback_6",
-      "text": "幸喜と名付けられたその白い梟は10才の誕生日の両親からの贈り物であった。まだ離婚する前のことであった。",
+      "text": {
+        "ja": "幸喜と名付けられたその白い梟は10才の誕生日の両親からの贈り物であった。まだ離婚する前のことであった。",
+        "en": "The white owl named Koki had been a gift from her parents on her tenth birthday. It was before the divorce."
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_owl_flashback_7"
     },
     {
       "id": "scene_owl_flashback_7",
-      "text": "しかし、ある日ケージを開けたとき、たまたま窓が開いていた。外のお散歩の経験のない幸喜はそのまま帰ってくることはなかった。",
+      "text": {
+        "ja": "しかし、ある日ケージを開けたとき、たまたま窓が開いていた。外のお散歩の経験のない幸喜はそのまま帰ってくることはなかった。",
+        "en": "But one day when she opened the cage, the window happened to be open. Koki, who had never been outside, never came back."
+      },
       "backgroundId": "bg_garbage_dump",
       "nextSceneId": "scene_party_1"
     },
     {
       "id": "scene_party_1",
-      "text": "黒い霞が球状になり、４つ目の玉として現れる。どの玉よりも大きく。黒光りしたそれは遥の顔をほのかに映し出す。",
+      "text": {
+        "ja": "黒い霞が球状になり、４つ目の玉として現れる。どの玉よりも大きく。黒光りしたそれは遥の顔をほのかに映し出す。",
+        "en": "The black haze formed into a sphere, appearing as the fourth ball. Larger than any of the others. Its dark gleam faintly reflected Haruka's face."
+      },
       "backgroundId": "bg_concrete_area",
       "nextSceneId": "scene_party_2",
       "se": "se_ball_appear",
@@ -143,28 +203,40 @@
     },
     {
       "id": "scene_party_2",
-      "text": "「これでHさんの心の扉はすべて開かれた。オイラにできるのはここまでだ。あとはくるみちゃんに頼むといい。」",
+      "text": {
+        "ja": "「これでHさんの心の扉はすべて開かれた。オイラにできるのはここまでだ。あとはくるみちゃんに頼むといい。」",
+        "en": "'With this, all the doors in H-san's heart are now open. This is as far as I can take you. From here, ask Kurumi-chan for help.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "TEN",
       "nextSceneId": "scene_party_3"
     },
     {
       "id": "scene_party_3",
-      "text": "「はるか……」「ん？」「私の名前は遥。覚えておいて……」",
+      "text": {
+        "ja": "「はるか……」「ん？」「私の名前は遥。覚えておいて……」",
+        "en": "'Haruka...' 'Hm?' 'My name is Haruka. Remember it...'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "HARUKA",
       "nextSceneId": "scene_party_4"
     },
     {
       "id": "scene_party_4",
-      "text": "「遥ちゃん、よろしくな。ちょっと待ってくるみちゃんを今呼ぶから」",
+      "text": {
+        "ja": "「遥ちゃん、よろしくな。ちょっと待ってくるみちゃんを今呼ぶから」",
+        "en": "'Haruka-chan, nice to meet you properly. Wait a moment, I'll call Kurumi-chan now.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "TEN",
       "nextSceneId": "scene_party_5"
     },
     {
       "id": "scene_party_5",
-      "text": "ほどなくしてくるみちゃんがやってきた。Kも一緒に来た。「さぁ、一杯やろうか」",
+      "text": {
+        "ja": "ほどなくしてくるみちゃんがやってきた。Kも一緒に来た。「さぁ、一杯やろうか」",
+        "en": "Before long, Kurumi-chan arrived. K came too. 'Now then, shall we have a drink?'"
+      },
       "backgroundId": "bg_concrete_area",
       "characters": {
         "left": "kurumi_kimono_purple",
@@ -174,34 +246,49 @@
     },
     {
       "id": "scene_party_6",
-      "text": "「俺たちは家族だ。この世界に能力を持った人間は約0.01％いるが、能力を自覚して活用しているのは一握りだ。マイノリティの俺たちはつながり助け合う必要がある。そう思わないか遥ちゃん」",
+      "text": {
+        "ja": "「俺たちは家族だ。この世界に能力を持った人間は約0.01％いるが、能力を自覚して活用しているのは一握りだ。マイノリティの俺たちはつながり助け合う必要がある。そう思わないか遥ちゃん」",
+        "en": "'We are family. About 0.01% of people in this world have powers, but only a handful are aware of and use them. As minorities, we need to connect and help each other. Don't you agree, Haruka-chan?'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "K",
       "nextSceneId": "scene_party_7"
     },
     {
       "id": "scene_party_7",
-      "text": "「どうして私の名前を？」「てんによって心の扉が開かれた今、私には開示情報が見えるのだよ、コウキちゃんのこともね。」",
+      "text": {
+        "ja": "「どうして私の名前を？」「てんによって心の扉が開かれた今、私には開示情報が見えるのだよ、コウキちゃんのこともね。」",
+        "en": "'How do you know my name?' 'Now that Ten has opened the doors of your heart, I can see the disclosed information. Including about Koki-chan.'"
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "K",
       "nextSceneId": "scene_party_8"
     },
     {
       "id": "scene_party_8",
-      "text": "「幸喜……」幸喜を失ったとき遥はその半身を失ったような気がした。遥の自己肯定感の低さが成長とともに改善されなかった原因がここにあるような気がした。",
+      "text": {
+        "ja": "「幸喜……」幸喜を失ったとき遥はその半身を失ったような気がした。遥の自己肯定感の低さが成長とともに改善されなかった原因がここにあるような気がした。",
+        "en": "'Koki...' When she lost Koki, Haruka felt like she had lost half of herself. She felt this might be why her low self-esteem never improved as she grew up."
+      },
       "backgroundId": "bg_concrete_area",
       "characterId": "HARUKA",
       "nextSceneId": "scene_party_9"
     },
     {
       "id": "scene_party_9",
-      "text": "「さあ、みんな食べよう」。宴が始まる。",
+      "text": {
+        "ja": "「さあ、みんな食べよう」。宴が始まる。",
+        "en": "'Come on, everyone, let's eat.' The feast began."
+      },
       "backgroundId": "bg_concrete_area",
       "nextSceneId": "scene_ending_4"
     },
     {
       "id": "scene_ending_4",
-      "text": "第4章 回顧 完",
+      "text": {
+        "ja": "第4章 回顧 完",
+        "en": "Chapter 4: Retrospection - End"
+      },
       "backgroundId": "",
       "type": "ending"
     }
